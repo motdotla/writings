@@ -280,7 +280,7 @@ db.smembers("emails", function(err, data) {
       var photo_url = json.photos[0].url; 
       var name      = json.contactInfo.fullName;
 
-      var html      = "<p><img src='"+photo_url+"'/></p><ul><li>"+name+"</li></li>";
+      var html      = "<p><img src='"+photo_url+"'/></p><ul><li>"+name+"</li></ul>";
 
       sendgrid.send({
         to          : to, 
