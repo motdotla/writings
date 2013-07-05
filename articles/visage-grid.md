@@ -144,9 +144,9 @@ Let's move onto part #2.
 
 ## Delivering an email with a different person each day
 
-This is where I will use SendGrid's API. I am going to write a script to send myself an email.
+This is where I will use [SendGrid's API](http://sendgrid.com/docs/API_Reference/). I am going to write a script to send myself an email.
 
-Add sendgrid to package.json:
+Add [sendgrid nodejs module](https://npmjs.org/package/sendgrid) to package.json:
 
 ```javascript
 {
@@ -238,7 +238,7 @@ FullContact let's you make an API call with an email address, and it will return
 
 Let's add it in.
 
-Edit package.json and add the fullcontact-api node module:
+Edit package.json and add the [fullcontact-api](https://npmjs.org/package/fullcontact-api) node module:
 
 ```javascript
 {
@@ -301,7 +301,7 @@ db.smembers("emails", function(err, data) {
 });
 ```
 
-That's it. We added a handful of additional lines to use FullContact's API.
+That's it. We added a handful of additional lines to use [FullContact's API](http://www.fullcontact.com/developer/docs/).
 
 1. `var fullcontact         = require('fullcontact-api')(fullcontact_key);` initializes the module
 2. `fullcontact.person.findByEmail` returns data about the person based on their email address
