@@ -1,10 +1,10 @@
 # visage-grid
 
-When you remember a person's name you pay them a subtle compliment. You add to their feeling of importance. Additionally, it benefits yourself to remember someone's name. They will be more likely to like you.
+When you remember a person's name you pay them a subtle compliment. You add to their feeling of importance. Additionally, it benefits yourself to remember someone's name. They will more likely like you.
 
-But many of us are bad at remembering people's names. I'm guilty of this. So let's change that to great effect. Let's build an app.
+But many of us are bad at remembering people's names. I'm guilty of this. So let's change that to great effect. Let's build an app to improve our recollection of people's names.
 
-I'm calling it visage-grid. It will send me an email each morning. In that email will be the visage of a person I've met. At the bottom of the email will be her name.
+I'm calling it [visage-grid](https://github.com/scottmotte/visage-grid). It will send me an email each morning. In that email will be the visage of a person I've met. At the bottom of the email will be her name.
 
 That's it. Simple can be powerful. The small size of the email makes it easily digestible. The morning delivery makes it ritual. And the photo and name make it useful. 
 
@@ -13,11 +13,12 @@ An app I really like called [sunrise.im](http://sunrise.im) takes a similar appr
 Alright, so let's build it.
 
 There are 3 moving parts:
+
 1. I need to maintain a list of people I've met
-2. I need to deliver an email with a different person each day
+2. I need to deliver an email with a different person I know each day
 3. I need a photo of each person I've met to embed in that email
 
-I'm a big fan of the 80/20 rule. I'm going to approach each of these parts with it in mind.
+I'm a big fan of the [80/20](http://en.wikipedia.org/wiki/Pareto_principle) rule. I'm going to approach each of these parts with it in mind.
 
 ## Maintaining a list of people I've met
 
@@ -56,13 +57,13 @@ Then run:
 npm install 
 ```
 
-Package.json sets up your app's dependencies and nom install installed them. It's similar to pip in Python or rubygems/bundler in Ruby.
+Package.json sets up your app's dependencies and `npm install` installs them. It's similar to pip in Python or rubygems/bundler in Ruby.
 
-You can see that we are using hapi. Hapi is currently my favorite nodejs framework for building APIs.
+You can see that we are using [hapi](http://hapijs.com). Hapi is currently my favorite nodejs framework for building APIs.
 
 Next, let's write the code that will save the emails to a database. I've chosen redis as the database to power this small app.
 
-(If you haven't installed Redis, I recommend this tutorial: https://www.digitalocean.com/community/articles/how-to-install-and-use-redis)
+(If you haven't installed Redis, I recommend this tutorial on [how to install and use redis](https://www.digitalocean.com/community/articles/how-to-install-and-use-redis) from [digital ocean.)
 
 ```bash
 touch app.js
