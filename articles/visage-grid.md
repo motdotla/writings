@@ -315,4 +315,15 @@ node ./task.js
 
 We're done. In about ~100 lines split into 2 files we've built an app to improve our recollection of people's names. That's developers at their best!
 
-The final step is to deploy onto your server and then setup a cron job to daily run the `node ./task.js` command.
+The final step is to deploy onto your server and then setup a cron job to daily run the `node ./task.js` command. I'll leave that to you. Also, the [visage-grid repository](github.com/scottmotte/visage-grid) has instructions for deploying onto [Heroku](http://heroku.com).
+
+## Resources
+
+* [visage-grid repository](github.com/scottmotte/visage-grid)
+* [SendGrid docs](http://sendgrid.com/docs/API_Reference/)
+* [SendGrid node module](https://npmjs.org/package/sendgrid)
+* [FullContact docs](http://www.fullcontact.com/developer/docs/)
+* [FullContact node module](https://npmjs.org/package/fullcontact-api)
+* [Installing Redis](https://www.digitalocean.com/community/articles/how-to-install-and-use-redis)
+* [Hapi Node Framework](http://spumko.github.io/)
+
