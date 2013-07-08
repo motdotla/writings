@@ -1,4 +1,4 @@
-# visage-grid
+# Remember people's names with an easily digestible daily email 
 
 When you remember a person's name you pay them a subtle compliment. You add to their feeling of importance. Additionally, it benefits yourself to remember someone's name. They will more likely like you.
 
