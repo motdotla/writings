@@ -63,7 +63,7 @@ You can see that we are using [hapi](http://hapijs.com). Hapi is currently my fa
 
 Next, let's write the code that will save the emails to a database. I've chosen redis as the database to power this small app.
 
-(If you haven't installed Redis, I recommend this tutorial on [how to install and use redis](https://www.digitalocean.com/community/articles/how-to-install-and-use-redis) from [digital ocean.)
+(If you haven't installed Redis, I recommend this tutorial on [how to install and use redis](https://www.digitalocean.com/community/articles/how-to-install-and-use-redis) from [digital ocean](http://digitalocean.com/).)
 
 ```bash
 touch app.js
