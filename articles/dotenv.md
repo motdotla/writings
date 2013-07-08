@@ -1,4 +1,4 @@
-# dotenv
+# Dotenv - load environment variables from .env for nodejs projects
 
 We like open source here at SendGrid. A lot of the tools we use are open source, and sometimes we create our own open source tools.
 
