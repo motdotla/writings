@@ -6,7 +6,7 @@ Recently, we created a small node.js module for handling environment variables b
 
 First let me tell you why we created it and why you should use it for your application.
 
-Building modern web applications requires a handful of environment variables that vary between deploys.[http://www.12factor.net/config] For example, if you are building your own [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service) product, you might have a [Stripe](http://stripe.com) secret key to process payments and a url to your [Postgres](http://www.postgresql.org/) database. Both of these will be different between production and development.
+Building modern web applications requires a handful of environment variables that vary between deploys. The tenets of a [twelve-factor app](http://www.12factor.net/config) describe this well. For example, if you are building your own [SaaS](http://en.wikipedia.org/wiki/Software_as_a_service) product, you might have a [Stripe](http://stripe.com) secret key to process payments and a url to your [Postgres](http://www.postgresql.org/) database. Both of these will be different between production and development.
 
 By putting these keys in environment variables, we give ourselves a couple advantages:
 1) They are easily changeable between environments and even isolated deploys. This leads to less complex deploys which saves time and money.
