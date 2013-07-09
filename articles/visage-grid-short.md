@@ -10,6 +10,8 @@ That's it. Simple can be powerful. The small size of the email makes it easily d
 
 Alright, so let's set it up and use it. For the sake of this demo we are going to deploy onto [Heroku](http://heroku.com), but this app is deployable to any server or server platform with node.js support. 
 
+![Visage-Grid Components](https://raw.github.com/scottmotte/writings/master/images/visage-grid-components.gif)
+
 The app uses [Redis](http://redis.io/) for the database, [SendGrid](http://sendgrid.com) for sending the emails, [Heroku's scheduler](https://devcenter.heroku.com/articles/scheduler) for the daily recurring task to send the email, and [FullContact.com](http://fullcontact.com) for identifying a photo associated with an email address.
 
 We will be able to use Heroku's add-ons for everything excepting FullContact. Go now and signup for a free [FullContact Developer account](https://www.fullcontact.com/developer/pricing/) and grab your API Key.
@@ -27,6 +29,8 @@ heroku config:set FULLCONTACT_KEY=yourfullcontactapikey
 heroku config:set TO=your@email.com
 git push heroku master
 ```
+
+![Visage-Grid Actions](https://raw.github.com/scottmotte/writings/master/images/visage-grid-actions.gif)
 
 Congrats the app is ready to go. Add a friend's email to the database. Pick a friend who has a strong online presence to increase the chances of the app returning a photo of her.
 
