@@ -2,7 +2,7 @@
 
 We like open source here at SendGrid. A lot of the tools we use are open source, and sometimes we create our own open source tools.
 
-Recently, we created a small node.js module for handling environment variables better. It's called [dotenv](https://github.com/scottmotte/dotenv) and is inspired by the [rubygem of the same name](https://github.com/bkeepers/dotenv).
+Recently, we created a small [node.js](http://nodejs.org) module for handling environment variables better. It's called [dotenv](https://github.com/scottmotte/dotenv) and is inspired by the [rubygem of the same name](https://github.com/bkeepers/dotenv).
 
 ## Why we created it
 
@@ -13,7 +13,7 @@ By putting these keys in environment variables, we give ourselves a couple advan
 1. They are easily changeable between environments and even isolated deploys. This leads to less complex deploys which saves time and money.
 2. There is a decreased chance of the production keys leaking out into the wrong hands or to a junior developer's hands. This leads to less chance that your database might maliciously or accidentally be wiped.
 
-[Dotenv](https://github.com/scottmotte/dotenv) will help you get these advantages for you node projects. That's why we think you should use it. 
+[Dotenv](https://github.com/scottmotte/dotenv) will help you get these advantages for your node.js projects. That's why we think you should use it. 
 
 ## How to use it
 
