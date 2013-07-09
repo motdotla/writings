@@ -8,9 +8,11 @@ I'm calling it [visage-grid](https://github.com/scottmotte/visage-grid). It will
 
 That's it. Simple can be powerful. The small size of the email makes it easily digestible. The morning delivery makes it ritual. And the photo and name make it useful.
 
-Alright, so let's set it up and use it. For the sake of this demo we are going to deploy onto [Heroku](http://heroku.com), but this app is deployable to any server or server platform with node.js support. 
+## Setup
 
 ![Visage-Grid Components](https://raw.github.com/scottmotte/writings/master/images/visage-grid-components.gif)
+
+Alright, so let's set it up and use it. For the sake of this demo we are going to deploy onto [Heroku](http://heroku.com), but this app is deployable to any server or server platform with node.js support. 
 
 The app uses [Redis](http://redis.io/) for the database, [SendGrid](http://sendgrid.com) for sending the emails, [Heroku's scheduler](https://devcenter.heroku.com/articles/scheduler) for the daily recurring task to send the email, and [FullContact.com](http://fullcontact.com) for identifying a photo associated with an email address.
 
@@ -29,6 +31,8 @@ heroku config:set FULLCONTACT_KEY=yourfullcontactapikey
 heroku config:set TO=your@email.com
 git push heroku master
 ```
+
+## Usage
 
 ![Visage-Grid Actions](https://raw.github.com/scottmotte/writings/master/images/visage-grid-actions.gif)
 
