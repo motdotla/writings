@@ -65,8 +65,12 @@ As long as the person's email you added was found by FullContact then you will r
 
 ## Setup Recurring Task
 
-The final step is to add this as a recurring task using Heroku's scheduler. We will set the recurring task to run every morning.
+![Visage-Grid Recurring](https://raw.github.com/scottmotte/writings/master/images/visage-grid-schedule.gif)
+
+The final step is to add this as a recurring task using Heroku's scheduler. Set the task to run once a day each morning. The entry for the task should read `node ./task.js`.
 
 We're done. In about 10 minutes we've setup and deployed an app to improve our recollection of people's names. That's developers at their best!
+
+## Further Reading
 
 For further reading, there is a detailed tutorial on how to build it from scratch [here](https://github.com/scottmotte/writings/blob/master/articles/visage-grid.md). It's ~100 lines of code. Additionally, the entire application is [open sourced here](https://github.com/scottmotte/visage-grid). Fork it, borrow from it, or improve it to build a better app. Enjoy!
