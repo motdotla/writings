@@ -59,7 +59,9 @@ Now let's send ourselves the visage-grid reminder email.
 heroku run node ./task.js
 ```
 
-As long as the person's email you added was found by FullContact then you will receive the email.
+As long as the person's email you added was found by FullContact then you will receive the email. Here's an example.
+
+![Visage Grid Delivery](https://raw.github.com/scottmotte/writings/master/images/visage-grid-delivery.gif)
 
 ## Setup Recurring Task
 
