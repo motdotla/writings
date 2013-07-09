@@ -17,6 +17,8 @@ We will be able to use Heroku's add-ons for everything excepting FullContact. Go
 Once you've done that, you can run the following commands from your terminal.
 
 ```bash
+git clone git@github.com:scottmotte/visage-grid.git
+cd visage-grid
 heroku create
 heroku addons:add redistogo
 heroku addons:add scheduler:standard
