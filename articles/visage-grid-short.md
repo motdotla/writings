@@ -42,6 +42,17 @@ Congrats the app is ready to go. Add a friend's email to the database. Pick a fr
 curl -X POST http://yourherokusubdomain.herokuapp.com/emails -d "email=friend@gmail.com"
 ```
 
+Visit [http://yourherokusubdomain.herokuapp.com/emails](http://yourherokusubdomain.herokuapp.com/emails) to confirm that the email was added. It should return a response like the following.
+
+```javascript
+{
+  success: true,
+  emails: [
+    "friend@gmail.com"
+  ]
+}
+```
+
 Now let's send ourselves the visage-grid reminder email.
 
 ```bash
@@ -49,6 +60,8 @@ heroku run node ./task.js
 ```
 
 As long as the person's email you added was found by FullContact then you will receive the email.
+
+## Setup Recurring Task
 
 The final step is to add this as a recurring task using Heroku's scheduler. We will set the recurring task to run every morning.
 
