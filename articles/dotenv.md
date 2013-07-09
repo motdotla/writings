@@ -1,5 +1,7 @@
 # Dotenv - load environment variables from .env for nodejs projects
 
+![dotenv](https://raw.github.com/scottmotte/writings/master/images/dotenv.jpg)
+
 We like open source here at SendGrid. A lot of the tools we use are open source, and sometimes we create our own open source tools.
 
 Recently, we created a small [node.js](http://nodejs.org) module for handling environment variables better. It's called [dotenv](https://github.com/scottmotte/dotenv) and is inspired by the [rubygem of the same name](https://github.com/bkeepers/dotenv).
