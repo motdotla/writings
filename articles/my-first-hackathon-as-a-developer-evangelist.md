@@ -40,7 +40,7 @@ It's a Hollywood level private screening room. Leather couches, beautiful decor,
 
 This hackathon had the best talent of any hackathon I've been to. There were 37 presentations - most of which were really top notch. Here's the [full list](https://github.com/scottmotte/writings/blob/master/articles/hollywood-hack-notes.md).
 
-![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-3.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-6.jpg)
 
 SpotiCli took the SendGrid prize with a rad command line interface for Spotify and a way to quickly email the currently playing song to a friend from that same command line.
 
