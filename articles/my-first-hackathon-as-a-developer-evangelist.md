@@ -12,19 +12,19 @@ We pull up to the venue - the United Talent Agency. They hook up the likes of Jo
 
 We're early by design. I meet the organizers of the event, and get to work helping them setup. They are organized so things go smoothly.
 
-![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-4.png)
+![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-4.jpg)
 
 [Elmer Thomas](https://twitter.com/thinkingserious), our veteran Sendgrid evangelist, arrives soon after, and he shows me the ropes for setting up the SendGrid table.
 
 It's 9am now. Elmer and I are chatting with people about technology and SendGrid. I also meet some of the other veteran evangelists - Neal from Mashery, Mager from Spotify, Tyler from Klout, and Devon from Rdio. Cool guys.
 
-![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-1.png)
+![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-1.jpg)
 
 Soon the room is buzzing with designers and developers. Some start settling into a table for the weekend. Teams form. There's probably 100 developers and designers.
 
 [Rahim](https://twitter.com/rahims) gives the introduction and the demos start from the developer evangelists. Good demos all around. I take mental notes for my next event where I will be demoing. Elmer takes this one.
 
-![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-2.png)
+![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-2.jpg)
  
 Then it is off to hacking. The rest of the event is filled with developers doing what they do best - hacking. The food is good, the outdoor/indoor venue is refreshing, and the talent at this event is high. 
 
@@ -32,15 +32,15 @@ I spend my time helping teams with Ruby and JavaScript, provisioning [SendGrid](
 
 That goes on until 5:30pm on Sunday. Time's up. Everyone starts making their way to the presentation room.
 
-![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-3.png)
+![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-3.jpg)
 
-![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-5.png)
+![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-5.jpg)
 
 It's a Hollywood level private screening room. Leather couches, beautiful decor, and perfect sound and picture. We all settle in and the demos begin.
 
 This hackathon had the best talent of any hackathon I've been to. There were 37 presentations - most of which were really top notch. Here's the [full list](https://github.com/scottmotte/writings/blob/master/articles/hollywood-hack-notes.md).
 
-![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-3.png)
+![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-3.jpg)
 
 SpotiCli took the SendGrid prize with a rad command line interface for Spotify and a way to quickly email the currently playing song to a friend from that same command line.
 
