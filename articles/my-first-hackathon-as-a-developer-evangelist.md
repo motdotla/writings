@@ -42,7 +42,7 @@ This hackathon had the best talent of any hackathon I've been to. There were 37 
 
 ![](https://raw.github.com/scottmotte/writings/master/images/hollywood-hack-day-6.jpg)
 
-SpotiCli took the SendGrid prize with a rad command line interface for Spotify and a way to quickly email the currently playing song to a friend from that same command line.
+SpotiCli, by Daniel and Aman, took the SendGrid prize with a command line interface for Spotify and a way to email the currently playing song to a friend from that same command line.
 
 First prize was an app comically named GoGoLoLow. You put your phone in your pocket, it synced up with your screen, and you played an active health game where you did your best to match the positions of the characters on the screen. 
 
