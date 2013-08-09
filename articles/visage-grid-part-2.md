@@ -1,28 +1,49 @@
-# visage-grid II
+# Part 2: Remember People’s Names with a Digestible Daily Email
 
-This is part II of visage-grid. You can read part I here.
+In a previous blog post, I showed you how to [remember people's names with a digestible daily email](http://blog.sendgrid.com/remember-peoples-names-with-an-easily-digestible-daily-email/). I've been using the approach daily. 
 
-In part I, I showed you how to receive a daily digestible email with people's names and their faces. It helped you remember people's names better.
+It has been helpful but has had one big downside. It requires me to make an API call by hand every time I want to add a person to the database. This is tedious. Let's change that by automating it.
 
-There was a big downside though. It required you to make an API call to add people's names to the database it pulled from. Wouldn't it be nicer to automatically add emails as you communicate with people. 
+[SendGrid's Parse API](http://sendgrid.com/docs/API_Reference/Webhooks/parse.html) can help us here.
 
-In part II, I am going to show you how to do that.
+## The Approach
 
-We can use SendGrid's parse API to make this a reality. 
+The majority of people's names I want to remember are people I have interacted with over email. Likely I met them in person, followed up with them over email, and might run into them again in my travels.
 
-First, let's setup the SendGrid parse API. Go to [http://sendgrid.com/developer/reply](http://sendgrid.com/developer/reply). Set your hostname to `m.yourdomain.com` and set your urls as `https://yoursubdomain.herokuapp.com/emails/parse`.
+So let's forward all our emails to SendGrid's Parse API, pull out the email addresses from the contents of the email, and save that to our database. Now our database of people's names will automatically grow as our network grows.
 
-Next, go to your domain's DNS dashboard and add the MX record with your hostname `m.yourdomain.com` with the value of `mx.sendgrid.net`.
+Let's get to building.
 
-Finally, setup all your emails to forward to `email@m.yourdomain.com`.
+## Setup the MX records
 
-Ok, now that we have done that, we can add the appropriate code to visage-grid to catch that incoming email, parse it, and add the person's email address to the database.
+To begin, we must add SendGrid's MX Record to a web domain we own. This will allow us to forward all emails to SendGrid's Parse API.
+
+Go to your domain's DNS dashboard and add the MX record `m.yourdomain.com` with the value of `mx.sendgrid.net`.
+
+[screenshot here]
+
+Next, setup the SendGrid Parse API. Go to [http://sendgrid.com/developer/reply](http://sendgrid.com/developer/reply). Set your hostname to `m.yourdomain.com` and set your url as `https://yoursubdomain.herokuapp.com/emails/parse`.
+
+[screenshots here]
+
+Now you can send an email to `email@m.yourdomain.com`, and SendGrid's Parse API will receive it, and make a POST request to  `https://yoursubdomain.herokuapp.com/emails/parse`.
+
+Awesome. Now, we can write the code to parse that incoming email data.
+
+## The Code
 
 In app.js add the following code.
 
 ```javascript
+…
+
+function findEmailAddresses(text) {
+  var emails = text.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);
+  return emails;
+}
+
 var emails      = {
-  ...
+  …
   parse: {
     handler: function(request) {
       var payload = request.payload;
@@ -46,18 +67,16 @@ server.route({
 });
 ```
 
-What we have done here is added a POST route at /emails/parse. You can see that the payload comes in, and then we get the emails out of the payload.text for that email.
+In the code above, we are setting up a route to catch the incoming email at /emails/parse. Then we get an array of email addresses out of that email. Finally, we add those emails to our database.
 
-The findEmailAddress function looks like the following.
+We're almost there. The final step is to forward all our incoming emails.
 
-```javascript
-function findEmailAddresses(text) {
-  var emails = text.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);
-  return emails;
-}
-```
+## Forward Your Emails
 
-Power of regexes. It returns an array of all the email addresses contained in that email.
+In GMail go to Settings > Forwarding & POP/IMAP and add a forward address to email@m.yourdomain.com. 
 
-There you go. All of that combined does a nice job of replacing the crusty curl request. Now as you naturally use your email, visage-grid will build a list of various people and email you about them - helping you to remember their names. 
+[screenshot]
 
+That's it. You are done. As you naturally use your email, this app will build a list of various people and email you about them - helping you to remember their names.
+
+The source code is [available here](https://github.com/scottmotte/visage-grid).
