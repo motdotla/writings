@@ -20,11 +20,13 @@ To begin, we must add SendGrid's MX Record to a web domain we own. This will all
 
 Go to your domain's DNS dashboard and add the MX record `m.yourdomain.com` with the value of `mx.sendgrid.net`.
 
-[screenshot here]
+![](https://raw.github.com/scottmotte/writings/master/images/visage-grid-part-2-1.png)
+
 
 Next, setup the SendGrid Parse API. Go to [http://sendgrid.com/developer/reply](http://sendgrid.com/developer/reply). Set your hostname to `m.yourdomain.com` and set your url as `https://yoursubdomain.herokuapp.com/emails/parse`.
 
-[screenshots here]
+![](https://raw.github.com/scottmotte/writings/master/images/visage-grid-part-2-2.png)
+![](https://raw.github.com/scottmotte/writings/master/images/visage-grid-part-2-3.png)
 
 Now you can send an email to `email@m.yourdomain.com`, and SendGrid's Parse API will receive it, and make a POST request to  `https://yoursubdomain.herokuapp.com/emails/parse`.
 
@@ -75,7 +77,7 @@ We're almost there. The final step is to forward all our incoming emails.
 
 In GMail go to Settings > Forwarding & POP/IMAP and add a forward address to email@m.yourdomain.com. 
 
-[screenshot]
+![](https://raw.github.com/scottmotte/writings/master/images/visage-grid-part-2-4.jpg)
 
 That's it. You are done. As you naturally use your email, this app will build a list of various people and email you about them - helping you to remember their names.
 
