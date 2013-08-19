@@ -24,4 +24,6 @@ Email with some hardware
 
 Hubot of email. Send him an email and he talks to you. He could listen to your emails too.
 
+Static generated app framework. Build out old fashioned websites/webapps using static pages and your seperate api. Some sort of framework for that. Use something like tilt possibly.
+
 
