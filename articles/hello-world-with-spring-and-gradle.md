@@ -17,8 +17,8 @@ With Spring, you have to setup the directory structure for your application and 
 Let's set things up.
 
 ```bash
-mkdir hello-java 
-cd hello-java 
+mkdir hello-spring
+cd hello-spring 
 mkdir -p src/main/java/com/scottmotte/controller
 mkdir -p src/main/java/com/scottmotte/springconfig
 mkdir -p src/main/webapp/WEB-INF/spring
