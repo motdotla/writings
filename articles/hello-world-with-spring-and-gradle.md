@@ -4,6 +4,7 @@ I am a Ruby and JavaScript developer learning Java. Java-land is vast. There are
 
 What follows is a 'Hello World' application using those Java technologies. Additionally, it does not require the Eclipse IDE which so many other Java tutorials defer to for some reason. I strongly prefer the command line to an IDE. 
 
+You can get the finished source of this tutorial [here](https://github.com/scottmotte/hello-spring).
 ## Install Gradle
 
 ```bash
