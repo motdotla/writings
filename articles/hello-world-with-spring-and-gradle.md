@@ -2,7 +2,7 @@
 
 I am a Ruby and JavaScript developer learning Java. Java-land is vast. There are a number of crufty frameworks and antiquated approaches. Don't get mired in those. Use [Spring MVC](http://www.springsource.org/spring-framework) and [Gradle](http://www.gradle.org/). 
 
-What follows is a 'Hello World' application using those Java technologies. Additionally, it does not require the Eclipse IDE which so many other Java tutorial defer to for some reason. I strongly prefer the command line to an IDE. 
+What follows is a 'Hello World' application using those Java technologies. Additionally, it does not require the Eclipse IDE which so many other Java tutorials defer to for some reason. I strongly prefer the command line to an IDE. 
 
 ## Install Gradle
 
@@ -12,9 +12,9 @@ brew install gradle
 
 ## Setup and Configuration
 
-Spring is not quite as opiniated as I would like. You have to setup the directory structure for your application and also wire together some boilerplate configuration. That is by design, as far as I can tell.
+With Spring, you have to setup the directory structure for your application and also wire together some boilerplate configuration. That is by design as far as I can tell.
 
-Let's setup the hello-java app.
+Let's set things up.
 
 ```bash
 mkdir hello-java 
@@ -88,7 +88,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 </web-app>
 ```
 
-Finally, we need a WebConfig.java file to finish configuration and setup of this app.
+Finally, we need a WebConfig.java.
 
 ```bash
 vim src/main/java/com/scottmotte/springconfig/WebConfig.java
@@ -143,10 +143,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class SampleController {
 
-  @RequestMapping("home")
+  @RequestMapping("/")
   public String loadHomePage(Model m) {
     m.addAttribute("message", "Hello World!");
-    return "home";
+    return "index";
   }
 }
 ```
@@ -154,7 +154,7 @@ public class SampleController {
 Next, write the view.
 
 ```bash
-vim src/main/webapp/WEB-INF/view/home.jsp
+vim src/main/webapp/WEB-INF/view/index.jsp
 ```
 
 Paste the following.
