@@ -1,4 +1,4 @@
-![](http://raw.github.com/scottmotte/writings/master/images/seattle-battle-hack.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/seattle-battle-hack.jpg)
 
 # Considered for SendGrid Prize
 
