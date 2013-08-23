@@ -6,7 +6,7 @@ We place 14 acoustic panels on the starboard wall. They would be broken into 2 r
 
 This would almost assuredly fix the terrible acoustics in the space. I feel it is our biggest problem with the space. When people come in, it is loud, and difficult to have a conversation - even for those of us who have been in the space for a while and have become accustomed to it.
 
-Secondly, we place Startup Vitamin Posters over the panels. These would fit the panel size almost perfectly (a few inches would be exposed on the top and bottom of the panel prospectively).
+Secondly, we place Startup Vitamin Posters over the panels. These would fit the panel size quite well (a few inches would be exposed on the top and bottom of the panel prospectively).
 
 This would help fix the terrible lack of style we currently have in the place. It doesn't feel cool yet and a like a place you truly want to hang out at. These vitamin posters are cool, are inspirational, and they would be visible from the street when on the starboard wall. Additionally, because they would be on top of the panels, they would stick out a bit more, adding to the visual appeal.
 
