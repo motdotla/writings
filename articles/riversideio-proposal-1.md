@@ -22,7 +22,7 @@ Posters to cover the acoustics - [http://www.startupvitamins.com/](http://www.st
 
 **$1,100 total.**
 
-* 15 24"x48" (14+1 extra incase of breakage) Acoustic panels @ $60 each - $900
+* 15 24"x48" Acoustic panels @ $60 each - $900
 * 10 24"x36" Startup Vitamin Posters @ $30 each - $300
 
 $1,200 total.
