@@ -29,6 +29,8 @@ $1,200 total.
 
 (additionally, I think purchasing 10 vitamin posters up front and being a coworking/hackerspace could get us the 10 posters at a price of just $200 which would bring the cost down to just $1,100)
 
+(the additional +1 panel (14 instead of 15) is in case we break one installing)
+
 ## Conclusion
 
 Let's do this! It would really help the space, and I think is the next step. 
