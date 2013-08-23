@@ -14,9 +14,9 @@ I'd like to see a month's worth of revenues spent on this. Our rent is covered f
 
 ## Details
 
-Acoustics - http://www.atsacoustics.com/item--ATS-Acoustic-Panel-24-x-48-x-4--1008.html?d=GPGEN01&kw=1008-D
+Acoustics - [http://www.atsacoustics.com/item--ATS-Acoustic-Panel-24-x-48-x-4--1008.html?d=GPGEN01&kw=1008-D](http://www.atsacoustics.com/item--ATS-Acoustic-Panel-24-x-48-x-4--1008.html?d=GPGEN01&kw=1008-D)
 
-Posters to cover the acoustics - http://www.startupvitamins.com/
+Posters to cover the acoustics - [http://www.startupvitamins.com/](http://www.startupvitamins.com/)
 
 ## Cost Break down
 
@@ -38,8 +38,6 @@ Then if we do roughly one 'big' thing a month (investing 1 month's rent ahead of
 And we're only risking one month at a time then which would more than likely increase membership anyways netting us more money.
 
 Finally, improving this space will go a long ways I think to increasing what I would call 'long term goals' of the fundraising effort. The amount of money for those items is larger, and an attractive space would very much help with those fundraising efforts I believe.
-
-
 
 
 
