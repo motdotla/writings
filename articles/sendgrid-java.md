@@ -1,5 +1,7 @@
 # sendgrid-java
 
+![](https://raw.github.com/scottmotte/writings/master/images/sendgrid-java.jpg)
+
 Announcing [sendgrid-java](http://github.com/sendgrid/sendgrid-java) - a Java module for sending emails through SendGrid using Java. 
 
 Go check it out and its documentation [here](https://github.com/sendgrid/sendgrid-java). 
