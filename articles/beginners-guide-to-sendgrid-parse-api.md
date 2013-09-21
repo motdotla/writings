@@ -4,11 +4,11 @@ The SendGrid Parse API is a powerful tool with [many use cases](http://blog.send
 
 ## Introduction
 
-In this tutorial, I am going to show you step by step how to setup your first SendGrid Parse API implementation. 
+In this tutorial, I am going to show you how to setup your first SendGrid Parse API implementation. 
 
-Sometimes, it helps to just have a full working example so I've created one for you. It's called [sendgrid-parse-api-example](https://github.com/scottmotte/sendgrid-parse-api-example), it's built in Node.js, and you can find it [here](https://github.com/scottmotte/sendgrid-parse-api-example).
+Sometimes, it helps to have a full working example so I've created one for you. It's called [sendgrid-parse-api-example](https://github.com/scottmotte/sendgrid-parse-api-example), it's built in Node.js, and you can find it [here](https://github.com/scottmotte/sendgrid-parse-api-example).
 
-We are going to use it in this tutorial to speed up your learning process.
+We are going to use it in this tutorial to speed up your learning process. It is also great for hackathons where you need to move fast.
 
 ## Guide
 
@@ -37,6 +37,7 @@ SENDGRID_PASSWORD=your_sendgrid_password
 Run the app.
 
 ```bash
+$ npm install
 $ node app.js
 ```
 
@@ -54,11 +55,11 @@ $ ngrok 3000
 
 ### Setup SendGrid and MX Records
 
-The next step can either take a couple minutes or 48 hours.
+The next step can either take a 5 minutes or 48 hours.
 
-#### The couple minute approach
+#### The 5 minute approach
 
-Set your [SendGrid Parsing Incoming Emails setting](http://sendgrid.com/developer/reply) with the hostname of `your-sendgrid-username.bymail.in` and with the url of `https://your-ngrock-url.ngrock.com/inbound`. (The bymail.in address has already been setup with the `mx.sendgrid.net` MX record.) 
+Set your [SendGrid Parsing Incoming Emails setting](http://sendgrid.com/developer/reply). For the hostname put `your-sendgrid-username.bymail.in`. For the url put `https://your-ngrock-url.ngrock.com/inbound`. (The bymail.in address has already been setup with the `mx.sendgrid.net` MX record.) 
 
 #### The 48 hour approach
 
@@ -74,7 +75,9 @@ Wait 1-48 hours. This is the most discouraging part, but it is just the way the 
 
 ### Send an Email
 
-From your personal gmail, yahoo mail or wherever send an email to `inbound@the-hostname-you-setup.com`. The app you have running will intercept it, parse it, and deliver the contents back to you. The contents will look something [like this](https://gist.github.com/scottmotte/6642578/raw/d66d703abdd45addec9e8ff7aa92214db7dda326/gistfile1.txt).
+From your personal gmail, yahoo mail or wherever send an email to `inbound@the-hostname-you-setup.com`. The app you have running will intercept it, parse it, and deliver the contents back to you. 
+
+It could take up to 1 minute to arrive. The contents will look something [like this](https://gist.github.com/scottmotte/6642578/raw/d66d703abdd45addec9e8ff7aa92214db7dda326/gistfile1.txt).
 
 Congrats you just learned how to setup the SendGrid Parse API! 
 
