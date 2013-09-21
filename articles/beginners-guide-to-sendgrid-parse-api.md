@@ -81,7 +81,7 @@ It could take up to 1 minute to arrive. The contents will look something [like t
 
 Congrats you just learned how to setup the SendGrid Parse API! 
 
-## Beyond the Guide
+## Next Steps 
 
 You've done the hard work of getting the email into your application. You can now parse it however you wish.
 
