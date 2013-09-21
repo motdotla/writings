@@ -79,6 +79,8 @@ From your personal gmail, yahoo mail or wherever send an email to `inbound@the-h
 
 It could take up to 1 minute to arrive. The contents will look something [like this](https://gist.github.com/scottmotte/6642578/raw/d66d703abdd45addec9e8ff7aa92214db7dda326/gistfile1.txt).
 
+### You're Done
+
 Congrats you just learned how to setup the SendGrid Parse API! 
 
 ## Next Steps 
