@@ -61,15 +61,17 @@ The next step can either take a 5 minutes or 48 hours.
 
 Set your [SendGrid Parsing Incoming Emails setting](http://sendgrid.com/developer/reply). For the hostname put `your-sendgrid-username.bymail.in`. For the url put `https://your-ngrock-url.ngrock.com/inbound`. (The bymail.in address has already been setup with the `mx.sendgrid.net` MX record.) 
 
+![](https://raw.github.com/scottmotte/writings/master/images/parse0.png)
+
 #### The 48 hour approach
 
 Set your [SendGrid Parsing Incoming Emails setting](http://sendgrid.com/developer/reply) with a hostname of your choice and with the url of `https://your-ngrock-url.ngrock.com/inbound`.
 
-![](https://raw.github.com/scottmotte/sendgrid-parse-api-example/master/readme/inbound3.png)
+![](https://raw.github.com/scottmotte/writings/master/images/parse1.png)
 
 Now you have to configure an MX record on the hostname you set above to point to `mx.sendgrid.net`. It should look something like the following.
 
-![](https://raw.github.com/scottmotte/sendgrid-parse-api-example/master/readme/inbound2.png)
+![](https://raw.github.com/scottmotte/writings/master/images/parse2.png)
 
 Wait 1-48 hours. This is the most discouraging part, but it is just the way the internet works. It can take up to 48 hours for MX records to propagate around the world.
 
