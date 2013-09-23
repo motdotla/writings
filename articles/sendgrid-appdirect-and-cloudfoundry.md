@@ -26,4 +26,4 @@ Finally, we created a [sendgrid-java library](github.com/sendgrid/sendgrid-java)
 
 ## Conclusion
 
-All in all, the SendGrid/AppDirect/Cloud Foundry 'trifecta' worked out really well. You should create your own trifecta. Talk to AppDirect and Cloud Foundry and make it happen.
+All in all, this SendGrid/AppDirect/Cloud Foundry 'trifecta' worked out really well. You should create your own trifecta. Talk to AppDirect and Cloud Foundry and make it happen.
