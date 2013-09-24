@@ -1,4 +1,4 @@
-# SendGrid, AppDirect, and CloudFoundry 
+# SendGrid, AppDirect, and Cloud Foundry 
 
 ![](https://raw.github.com/scottmotte/writings/master/images/sendgrid-appdirect-cloudfoundry-0.png)
 
