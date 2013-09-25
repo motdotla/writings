@@ -26,10 +26,12 @@ In package.json, paste the following code:
   "main": "app.js",
   "description": "leap-app",
   "dependencies": {
-    "leapjs": "0.2.1",
+    "leapjs": "0.2.1"
   }
 }
 ```
+
+Install the leapjs dependency.
 
 ```bash
 npm install
