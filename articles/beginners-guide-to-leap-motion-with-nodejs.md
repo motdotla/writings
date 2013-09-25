@@ -145,6 +145,8 @@ controller.on('deviceFrame', function(frame) {
 controller.connect();
 ```
 
+Run `node ./task.js` and attempt some of those gestures. You'll see the gesture name logged to your screen. Good job.
+
 ## Conclusion
 
 As you can see, getting started with the Leap Motion is reasonably straightforward and most definitely fun. 
