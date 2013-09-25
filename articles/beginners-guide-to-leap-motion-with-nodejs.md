@@ -99,7 +99,7 @@ var controller  = new leapjs.Controller({enableGestures: true});
 ...
 ```
 
-And add a bit of code to capture those gestures so that the end script looks like the following.
+And add a bit of code to capture those gestures so that the final script looks like the following.
 ```javascript
 #!/usr/bin/env node
 
@@ -112,7 +112,7 @@ controller.on('deviceFrame', function(frame) {
     var gesture = frame.gestures[i];
     var type    = gesture.type;          
     
-    switch( type ){
+    switch(type) {
 
       case "circle":
         console.log('circle');
