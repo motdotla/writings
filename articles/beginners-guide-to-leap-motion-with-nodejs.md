@@ -111,23 +111,31 @@ controller.on('deviceFrame', function(frame) {
   for(var i = 0; i < frame.gestures.length; i++){
     var gesture = frame.gestures[i];
     var type    = gesture.type;          
-    
-    switch(type) {
+
+    switch( type ){
 
       case "circle":
-        console.log('circle');
+        if (gesture.state == "stop") {
+          console.log('circle');
+        }
         break;
-      
+
       case "swipe":
-        console.log('swipe');
+        if (gesture.state == "stop") {
+          console.log('swipe');
+        }
         break;
 
       case "screenTap":
-        console.log('screenTap');
+        if (gesture.state == "stop") {
+          console.log('screenTap');
+        }
         break;
 
       case "keyTap":
-        console.log('keyTap');
+        if (gesture.state == "stop") {
+          console.log('keyTap');
+        }
         break;
 
       }
