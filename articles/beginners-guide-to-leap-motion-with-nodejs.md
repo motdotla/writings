@@ -1,5 +1,7 @@
 # Beginner's Guide to Leap Motion with Node.js
 
+In this article I show you how to get started with Leap Motion in Node.js.
+
 ## Installation
 
 Install the leap motion software [here](https://www.leapmotion.com/setup).
@@ -15,19 +17,16 @@ In package.json, paste the following code:
 
 ```javascript
 {
-  "name": "sendgrid-leap-motion-demo",
+  "name": "leap-app",
   "version": "0.0.1",
   "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
   },
   "main": "app.js",
-  "description": "sendgrid-leap-motion-demo",
+  "description": "leap-app",
   "dependencies": {
-    "dotenv": "0.0.3",
-    "hapi": "1.6.2",
     "leapjs": "0.2.1",
-    "sendgrid": "0.3.0-rc.1.8"
   }
 }
 ```
