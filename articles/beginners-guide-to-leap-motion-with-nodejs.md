@@ -14,7 +14,6 @@ touch package.json
 ```
 
 In package.json, paste the following code:
-
 ```javascript
 {
   "name": "leap-app",
@@ -32,7 +31,6 @@ In package.json, paste the following code:
 ```
 
 Install the leapjs dependency.
-
 ```bash
 npm install
 ```
@@ -40,13 +38,11 @@ npm install
 ## Basic Events
 
 Next, we are going to create a task.js script to catch some basic Leap Motion events.
-
 ```bash
 touch task.js
 ```
 
 Paste the following into task.js.
-
 ```javascript
 #!/usr/bin/env node
 
@@ -70,7 +66,6 @@ controller.connect();
 ```
 
 Let's run it.
-
 ```bash
 node ./task.js
 ```
@@ -82,7 +77,6 @@ Now, connect, and disconnect your Leap motion. You'll see those events logged to
 Let's move beyond that and log our finger count.
 
 Add the following to task.js.
-
 ```javascript
 controller.on('deviceFrame', function(frame) {
   var numberOfFingers = frame.fingers.length;
@@ -99,7 +93,6 @@ Try with 2 fingers and then with 5. Pretty amazing huh!
 Now let's try some gestures.
 
 Gestures are not enabled by default. Begin by enabling them.
-
 ```javascript
 ...
 var controller  = new leapjs.Controller({enableGestures: true});
@@ -107,7 +100,6 @@ var controller  = new leapjs.Controller({enableGestures: true});
 ```
 
 And add a bit of code to capture those gestures so that the end script looks like the following.
-
 ```javascript
 #!/usr/bin/env node
 
