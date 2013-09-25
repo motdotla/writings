@@ -39,7 +39,7 @@ npm install
 
 ## Basic Events
 
-Next, we are going to create a basic task.js script to catch some basic events.
+Next, we are going to create a task.js script to catch some basic Leap Motion events.
 
 ```bash
 touch task.js
@@ -77,9 +77,9 @@ node ./task.js
 
 Now, connect, and disconnect your Leap motion. You'll see those events logged to your screen. Neat.
 
-Let's move beyond that and catch our finger count.
-
 ## Count Your Fingers
+
+Let's move beyond that and log our finger count.
 
 Add the following to task.js.
 
@@ -90,13 +90,15 @@ controller.on('deviceFrame', function(frame) {
 });
 ```
 
-Run `node ./task.js`. Now when you put your fingers out, you will see the number count of fingers you are holding displayed in the console log. Pretty amazing huh!
+Run `node ./task.js`. Now when you put your fingers out, you will see the number of fingers you stick out displayed in the console log. 
 
-Now let's try some gestures.
+Try with 2 fingers and then with 5. Pretty amazing huh!
 
 ## Gestures
 
-Change your controller to include gestures.
+Now let's try some gestures.
+
+Gestures are not enabled by default. Begin by enabling them.
 
 ```javascript
 ...
