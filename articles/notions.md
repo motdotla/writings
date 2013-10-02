@@ -26,4 +26,4 @@ Hubot of email. Send him an email and he talks to you. He could listen to your e
 
 Static generated app framework. Build out old fashioned websites/webapps using static pages and your seperate api. Some sort of framework for that. Use something like tilt possibly.
 
-
+App that turns your Tinder into the perfect pic. Or it turns it into a meme. Or it turns it into a trick to convince the person to swipe the other way. This would be pretty fun for a hackathon.
