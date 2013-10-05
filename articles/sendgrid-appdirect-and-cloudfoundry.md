@@ -12,7 +12,7 @@ Did you know that you can also create your own services? You can, and you can ad
 
 ## Creating your own service
 
-I work with [SendGrid](http://sendgrid.com), and we did just that. We make developers lives easier by making it easy to send and receive email from within your application. Now we do that on the Cloud Foundry platform too.
+I work with [SendGrid](http://sendgrid.com), and we did just that. We make developers lives easier by making it easy to send and receive [transactional email](http://sendgrid.com/transactional-email) from within your application. Now we do that on the Cloud Foundry platform too.
 
 Here is how we approached it. You might want to do the same.
 
