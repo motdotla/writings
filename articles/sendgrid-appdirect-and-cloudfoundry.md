@@ -28,4 +28,4 @@ Finally, we created a [sendgrid-java library](github.com/sendgrid/sendgrid-java)
 
 All in all, this SendGrid/AppDirect/Cloud Foundry 'trifecta' worked out really well. You should create your own trifecta. Talk to AppDirect and Cloud Foundry and make it happen.
 
-And Cloud Foundry developers can send *25,000 emails every month for free*. Check out [Cloud Foundry's documentation page](http://docs.cloudfoundry.com/docs/dotcom/marketplace/services/sendgrid.html) to get started!
+And Cloud Foundry developers can send **25,000 emails every month for free**. Check out [Cloud Foundry's documentation page](http://docs.cloudfoundry.com/docs/dotcom/marketplace/services/sendgrid.html) to get started!
