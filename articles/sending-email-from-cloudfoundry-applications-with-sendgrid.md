@@ -36,8 +36,8 @@ sendgrid.setText("My first email through SendGrid");
 sendgrid.send();
 ```
 
-That's it. Now you can start sending emails from your Java application!
+That's it. Now you can start sending emails from your Java application! Cloud Foundry developers can send **25,000 emails every month for free**.
 
-For a quick demo of Cloud Foundry + SendGrid (and to try it for yourself), just follow the easy steps in this example video.
+For a working demo of Cloud Foundry + SendGrid, just follow the easy steps in this example video. It uses the [example spring-attack app](https://github.com/scottmotte/spring-attack).
 
-And Cloud Foundry developers can send **25,000 emails every month for free**.
+[![](https://raw.github.com/scottmotte/writings/master/images/cloudfoundry+sendgrid.png)](https://vimeo.com/76770369)
