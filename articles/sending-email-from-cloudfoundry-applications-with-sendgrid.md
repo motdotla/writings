@@ -1,4 +1,4 @@
-# Sending Email from Cloudfoundry Applications with Sendgrid
+# Sending Email from Cloud Foundry Applications with SendGrid
 
 A few weeks ago SendGrid released their [sendgrid-java helper library](https://github.com/sendgrid/sendgrid-java). The library goes a step further in sticking with Cloud Foundry's "it just works" experience and making your life as a developer easier.
 
@@ -36,7 +36,7 @@ sendgrid.setText("My first email through SendGrid");
 sendgrid.send();
 ```
 
-That's it. Now you can start sending emails from your Java application! Cloud Foundry developers can send **25,000 emails every month for free**.
+That's it. Now you can start sending emails from your Java application! Cloud Foundry developers can send **25,000 emails every month for free**. Check out [Cloud Foundry's documentation page](http://docs.cloudfoundry.com/docs/dotcom/marketplace/services/sendgrid.html) to get started
 
 ## Video Demo
 
