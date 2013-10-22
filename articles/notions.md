@@ -68,3 +68,5 @@ jQuery on the server. Somehow make it so people who only know jQuery can creat a
 Airline seating chart that seats you according to interests, age, sex, and/or relationship status.
 
 App that splits your email into multiple words. Then it comes back and brings it back together into one email.
+
+Replace car alarms with push notifications or text messages to your phone
