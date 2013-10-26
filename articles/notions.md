@@ -70,3 +70,5 @@ Airline seating chart that seats you according to interests, age, sex, and/or re
 App that splits your email into multiple words. Then it comes back and brings it back together into one email.
 
 Replace car alarms with push notifications or text messages to your phone
+
+USB shoes. The shoes charge em the laces have USB or miniusb ends
