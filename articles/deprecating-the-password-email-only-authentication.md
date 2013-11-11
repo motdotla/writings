@@ -1,14 +1,12 @@
 # Deprecating the password: Email only Authentication
 
-## Passwords suck
-
 Passwords suck. They are hard to remember.
 
 The average person re-uses the same password across the majority of their accounts. Can you blame them? It's easier, and people have lives to live - not passwords to manage. It's mainly the technorati that use tools like LastPass or 1Password.
 
 Passwords also tend to never expire. It is rare a site requires you to change your password - and it's discouragingly user un-friendly when they do.
 
-What if we could remove the password? That would solve the above problems. Let's try.
+**What if we could remove the password?** That would solve the above problems. Let's try.
 
 ## Introducing Handshake.js
 
