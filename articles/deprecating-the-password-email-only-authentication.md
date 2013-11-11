@@ -14,9 +14,21 @@ I've built a solution called [Handshake.js](https://github.com/scottmotte/handsh
 
 It works like this:
 
-1. Place a small script tag into your application where you want the login form. 
-2. When a user visits your site, they enter their email and receive a short authcode by email.
-3. They type in the authcode to gain access to your site. No passwords - just a temporary authcode.
+You place a small script tag into your application where you want the login form. 
+
+```html
+<script src='/path/to/handshake.js' 
+        data-app_name="your_app_name" 
+        data-root_url="https://handshakejs.herokuapp.com"></script>
+```
+
+When a user visits your site, they enter their email and receive a short authcode by email.
+
+PUT PHOTO HERE SHOWING IT
+
+They type in the authcode to gain access to your site. No passwords - just a temporary authcode.
+
+PUT PHOTO HERE SHOWING IT
 
 Watch this short video to see it fully implemented and functional in less than 2 minutes.
 
