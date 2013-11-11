@@ -24,11 +24,11 @@ You place a small script tag into your application where you want the login form
 
 When a user visits your site, they enter their email and receive a short authcode by email.
 
-PUT PHOTO HERE SHOWING IT
+![](https://raw.github.com/scottmotte/writings/master/images/handshakejs-1.jpg)
 
 They type in the authcode to gain access to your site. No passwords - just a temporary authcode.
 
-PUT PHOTO HERE SHOWING IT
+![](https://raw.github.com/scottmotte/writings/master/images/handshakejs-2.jpg)
 
 Watch this short video to see it fully implemented and functional in less than 2 minutes.
 
