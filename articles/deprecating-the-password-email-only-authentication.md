@@ -32,7 +32,7 @@ They type in the authcode to gain access to your site. No passwords - just a tem
 
 Watch this short video to see it fully implemented and functional in less than 2 minutes.
 
-INSERT VIDEO HERE INSERT VIDEO HERE
+[![](https://raw.github.com/scottmotte/handshake-js/master/handshake-vimeo.png)](https://vimeo.com/79125268)
 
 ## The advantages
 
