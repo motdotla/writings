@@ -27,6 +27,7 @@ INSERT VIDEO HERE INSERT VIDEO HERE
 That's it. With less code than most standard authentication systems you have a 'password-less' authentication system. 
 
 The advantages of this approach are:
+
 1. No password to remember
 2. Zero-chance to re-use the same password
 3. No crusty unexpired-passwords. 
