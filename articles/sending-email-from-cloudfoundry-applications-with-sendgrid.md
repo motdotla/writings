@@ -22,11 +22,19 @@ cf files yourapp logs/env.log
 
 Inside there will be your sendgrid username and password. Note those values.
 
-[Install the sendgrid-java library](https://github.com/sendgrid/sendgrid-java#installation) and add the following code to your project - replacing the sendgrid_username and sendgrid_password with the values you noted in your VCAP_ENVIRONMENT variables.
+[Install the vcapenv library](https://github.com/scottmotte/vcapenv), and [Install the sendgrid-java library](https://github.com/sendgrid/sendgrid-java#installation). 
+
+Then add the following code to your project.
 
 ```java
+import com.github.scottmotte.Vcapenv;
 import com.github.sendgrid.SendGrid;
-SendGrid sendgrid = new SendGrid("sendgrid_username", "sendgrid_password");
+
+Vcapenv vcapenv = new Vcapenv();
+String sendgrid_username = vcapenv.SENDGRID_USERNAME();
+String sendgrid_password = vcapenv.SENDGRID_PASSWORD();
+
+SendGrid sendgrid = new SendGrid(sendgrid_username, sendgrid_password);
 
 sendgrid.addTo("example@example.com");
 sendgrid.setFrom("other@example.com");
