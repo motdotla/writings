@@ -13,8 +13,7 @@ wget http://download.redis.io/redis-stable.tar.gz
 tar xvzf redis-stable.tar.gz
 cd redis-stable
 make
-sudo cp redis-server /usr/local/bin/
-sudo cp redis-cli /usr/local/bin/
+sudo make install
 ```
 
 ### Install Go
@@ -113,6 +112,10 @@ go get github.com/garyburd/redigo/redis
 ```
 
 ### Run it
+
+```bash
+/usr/local/bin/redis-server
+```
 
 ```bash
 go run hello-go-redis.go
