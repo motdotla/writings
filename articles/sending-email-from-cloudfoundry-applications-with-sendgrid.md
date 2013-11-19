@@ -41,4 +41,4 @@ That's it. Now you can start sending emails from your Java application! Cloud Fo
 
 For a working demo of Cloud Foundry + SendGrid, just follow the easy steps in this example video. It uses the [example spring-attack app](https://github.com/scottmotte/spring-attack).
 
-[![](https://raw.github.com/scottmotte/writings/master/images/cloudfoundry+sendgrid.png)](https://vimeo.com/76770369)
+[![](https://raw.github.com/scottmotte/writings/master/images/cloudfoundry+sendgrid.png)](https://vimeo.com/79817754)
