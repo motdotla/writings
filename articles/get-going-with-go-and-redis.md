@@ -8,9 +8,9 @@ I'm starting to dive into it in my spare time, and in this blog post I will show
 
 ### Install Go
 
-Install Go. As of writing [this](https://go.googlecode.com/files/go1.1.2.darwin-amd64.pkg) was the latest version.
+[Install Go](https://go.googlecode.com/files/go1.1.2.darwin-amd64.pkg). As of writing [this](https://go.googlecode.com/files/go1.1.2.darwin-amd64.pkg) was the latest version.
 
-You can find the list of all available downloads by clicking from [the go download page](http://golang.org/doc/install).
+(You can find the list of all available downloads by clicking from [the go download page](http://golang.org/doc/install).)
 
 ### Install Mercurial
 
@@ -21,6 +21,7 @@ brew update
 brew doctor
 brew install mercurial
 ```
+
 ### Setup GOPATH
 
 Create your go workspace. This is just the way go works. Do the following.
@@ -41,23 +42,23 @@ On the last line set the GOPATH.
 export GOPATH="$HOME/gocode"
 ```
 
-### Create your project inside your workspace 
+### Create your project workspace 
 
-Now, we can create our project inside our gocode workspace.
+Now, we can create our project workspace.
 
 ```bash
 cd gocode
 mkdir -p src/github.com/yourusername
 ```
 
-## Code
+## Let's code
 
 Cool, now let's create the redis go project.
 
 ### Create the hello-go-redis project
 
 ```bash
-cd src/github/username
+cd src/github/yourusername
 mkdir hello-go-redis
 cd hello-go-redis
 vim hello-go-redis.go
