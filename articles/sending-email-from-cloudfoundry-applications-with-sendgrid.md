@@ -13,16 +13,7 @@ cf create-service sendgrid
 cf bind-service
 ```
 
-Next, show your VCAP_ENVIRONMENT variables.
-
-```bash
-cf restart yourapp
-cf files yourapp logs/env.log
-```
-
-Inside there will be your sendgrid username and password. Note those values.
-
-[Install the vcapenv library](https://github.com/scottmotte/vcapenv), and [Install the sendgrid-java library](https://github.com/sendgrid/sendgrid-java#installation). 
+Next, [Install the vcapenv library](https://github.com/scottmotte/vcapenv), and [install the sendgrid-java library](https://github.com/sendgrid/sendgrid-java#installation). 
 
 Then add the following code to your project.
 
