@@ -6,6 +6,17 @@ I'm starting to dive into it in my spare time, and in this blog post I will show
 
 ## Setup
 
+### Install Redis
+
+```bash
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+sudo cp redis-server /usr/local/bin/
+sudo cp redis-cli /usr/local/bin/
+```
+
 ### Install Go
 
 [Install Go](https://go.googlecode.com/files/go1.1.2.darwin-amd64.pkg). As of writing [this](https://go.googlecode.com/files/go1.1.2.darwin-amd64.pkg) was the latest version.
@@ -73,7 +84,6 @@ import "fmt"
 import "github.com/garyburd/redigo/redis"
 
 func main() {
-  fmt.Printf("hello, go\n")
   //INIT OMIT
   c, err := redis.Dial("tcp", ":6379")
   if err != nil {
@@ -83,10 +93,10 @@ func main() {
   defer c.Close()
 
   //set
-  c.Do("SET", "hello", "world")
+  c.Do("SET", "message1", "Hello World")
 
   //get
-  world, err := redis.String(c.Do("GET", "hello"))
+  world, err := redis.String(c.Do("GET", "message1"))
   if err != nil {
     fmt.Println("key not found")
   }
@@ -107,3 +117,6 @@ go get github.com/garyburd/redigo/redis
 ```bash
 go run hello-go-redis.go
 ```
+
+You will get the message back "Hello World". Nice job, you just wrote your first go script.
+
