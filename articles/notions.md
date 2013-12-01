@@ -41,3 +41,5 @@ USB shoes. The shoes charge em the laces have USB or miniusb ends
 Geocoded git commits. It'd be interesting to see when/where I was more productive with my code. Maybe it was on a bus to Phoenix.
 
 An app that tells you how many times you open other apps. So you can stop being fucking ADD.
+
+An app that takes your email and prints it out, and sends you the printed mails once a month. It's a printed email - designed for those who need to be on the "bottom of things" as [Knuth on email](http://www-cs-faculty.stanford.edu/~uno/email.html) so aptly put it.
