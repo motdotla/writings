@@ -70,5 +70,5 @@ Also, hyperlinks for the win.
 * [Hubdoc - all your bills in one spot](http://www.hubdoc.com/) 
 * [Thoughts on productivity apps and how to improve](http://www.visakanv.com/blog/2013/09/productivity-apps-fill-buckets-when-they-should-be-lighting-fires/)
 * [Onions.io - Secure text storage in the cloud](https://www.onions.io/)
-
+* [Consider skating again - especially with all the cities you travel to](http://www.thrashermagazine.com/component/option,com_hwdvideoshare/Itemid,90/lang,en/task,viewvideo/video_id,2355/)
 
