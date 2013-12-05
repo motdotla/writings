@@ -40,6 +40,7 @@ Also, hyperlinks for the win.
 ## LA
 
 * [Student RND](https://drive.google.com/a/sendgrid.com/folderview?id=0B-wCyigKjlrpdWN0M2k3WTRVWms&usp=sharing)
+* [Trello CodeDay LA](https://trello.com/b/3d9E9QLZ/codeday-la-2014)
 * [Metro Map](http://upload.wikimedia.org/wikipedia/commons/6/6b/Spring-2012-LACMTA-Map.png)
 * [Upcoming Hackathons in LA](http://www.hackathon.io/events?utf8=%E2%9C%93&term=&location=Los+Angeles&commit=filter)
 
