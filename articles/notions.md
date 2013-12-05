@@ -43,3 +43,7 @@ Geocoded git commits. It'd be interesting to see when/where I was more productiv
 An app that tells you how many times you open other apps. So you can stop being fucking ADD.
 
 An app that takes your email and prints it out, and sends you the printed mails once a month. It's a printed email - designed for those who need to be on the "bottom of things" as [Knuth on email](http://www-cs-faculty.stanford.edu/~uno/email.html) so aptly put it.
+
+An app that you can quickly stand up and start accepting SendGrid events to. It'd probably use redis to store the event data, or S3 or something else. Contact Paul Richards when completing this one. You met him at SendGrid Delivered San Diego and he has use of this. 
+
+
