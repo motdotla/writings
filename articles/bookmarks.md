@@ -5,6 +5,12 @@ to bookmark all the things. Use a more difficult tool, like a digital
 markdown file to keep my bookmarks organized.
 
 Also, hyperlinks for the win.
+## Morning
+
+* [Simple.com](http://simple.com)
+* Handle expenses
+* Check your calendar
+* Check your email
 
 ## Fun
 
