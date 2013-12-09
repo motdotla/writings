@@ -9,8 +9,8 @@ Also, hyperlinks for the win.
 
 * [Simple.com](http://simple.com)
 * Handle expenses
-* Check your calendar
-* Check your email
+* [Check your calendar](https://calendar.google.com/a/sendgrid.com)
+* [Check your email](https://mail.google.com/a/sendgrid.com)
 
 ## Fun
 
