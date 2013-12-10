@@ -22,7 +22,7 @@ Let's discuss.
 1) it's time consuming
 2) it's annoying
 3) it confuses the devs that use our software
-4) it's slower than HTTP
+4) it's slower than HTTP (Yamil tested and received 0.75s for HTTP call vs averaging 2.0s)
 
 SMTP is a chattier protocol. It used to be that HTTP API went through a different path to send the emails. That is not the case any longer as confirmed with Tim Jenkins. 
 
