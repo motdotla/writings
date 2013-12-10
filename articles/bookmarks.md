@@ -11,6 +11,7 @@ Also, hyperlinks for the win.
 * Handle expenses
 * [Check your calendar](https://calendar.google.com/a/sendgrid.com)
 * [Check your email](https://mail.google.com/a/sendgrid.com)
+* [Plan your next event](https://basecamp.com/1901156/calendar)
 
 ## Fun
 
