@@ -34,3 +34,14 @@ Advantages if we deprecate:
 * Less confusion for devs and chance of bugs (most bugs are smtp API related)
 
 
+
+## Notes
+
+* "Here's the functionality for what should be in there. Here's the base feature set"
+* Spec the featureset and stick to language conventions
+
+* APEX library - [https://github.com/sendgrid/docs/issues/280](https://github.com/sendgrid/docs/issues/280). This could be a big win for us, but we end up with it from BizDev. Could this be a good fit for Solutions Architect (partner evangelist).
+* Asyc on the libraries where it makes sense. 
+* Ruby library
+
+* Get the smtpapi header out so that devs could use that to add to their SMTP library. More modular and would move us off SMTP in our libs.
