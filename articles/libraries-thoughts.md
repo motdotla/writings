@@ -19,10 +19,10 @@ Let's discuss.
 
 **We should deprecate SMTP from our libraries.**
 
-# it's time consuming
-# it's annoying
-# it confuses the devs that use our software
-# it's slower than HTTP (Yamil tested and received 0.75s for HTTP call vs averaging 2.0s)
+* it's time consuming
+* it's annoying
+* it confuses the devs that use our software
+* it's slower than HTTP (Yamil tested and received 0.75s for HTTP call vs averaging 2.0s)
 
 SMTP is a chattier protocol. It used to be that HTTP API went through a different path to send the emails. That is not the case any longer as confirmed with Tim Jenkins. 
 
@@ -30,7 +30,7 @@ Tim actually recommended the Web API to me now and said that the old blog post s
 
 Advantages if we deprecate:
 
-# Less time spent maintaining libraries (many pull requests are smtp bug related)
-# Less confusion for devs and chance of bugs (most bugs are smtp API related)
+* Less time spent maintaining libraries (many pull requests are smtp bug related)
+* Less confusion for devs and chance of bugs (most bugs are smtp API related)
 
 
