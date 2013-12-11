@@ -40,7 +40,7 @@ Advantages if we deprecate:
 * "Here's the functionality for what should be in there. Here's the base feature set"
 * Spec the featureset and stick to language conventions
 
-* APEX library - [https://github.com/sendgrid/docs/issues/280](https://github.com/sendgrid/docs/issues/280). This could be a big win for us, but we end up with it from BizDev. Could this be a good fit for Solutions Architect (partner evangelist).
+* APEX library - <https://github.com/sendgrid/docs/issues/280>. This could be a big win for us, but we end up with it from BizDev. Could this be a good fit for Solutions Architect (partner evangelist).
 * Asyc on the libraries where it makes sense. 
 * Ruby library
 
