@@ -23,6 +23,7 @@ Also, hyperlinks for the win.
 * [_why's return collection](http://www.scribd.com/collections/4230124/-why-s-return)
 * [SeenHeardKnown](http://seenheardknown.com/)
 * [SafeHouseUSA](http://safehouseusa.com/)
+* [Me Vida Loca](http://www.youtube.com/watch?v=EWY3FyD18y4) - watch this soon
 
 ## Perspective
 
