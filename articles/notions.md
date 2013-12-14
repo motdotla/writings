@@ -46,4 +46,4 @@ An app that takes your email and prints it out, and sends you the printed mails 
 
 An app that you can quickly stand up and start accepting SendGrid events to. It'd probably use redis to store the event data, or S3 or something else. Contact Paul Richards when completing this one. You met him at SendGrid Delivered San Diego and he has use of this. 
 
-
+It would be cool that as you hit certain keys on your keyboard it would record sounds associated with each key. Then asyou coded your project it would create a rythm and musical sound to how you code. You could play it back and see how your coding was the past few hours.
