@@ -15,6 +15,11 @@ and is good at organizing events and building community. He's mainly inspired
 by fun tech events like Startup Weekend. He's organized one himself and attended
 many. He writes in PHP, has a WordPress background, and also writes in Node.js. 
 
-### 
+###  Luke Anspach <http://lukeanspach.com/>
+
+Luke organizes [TheGuild.cc](http://theguild.cc). He's a creative artist, 
+comfortable in a bit of code, and passionate about community in the 
+Riverside/Redlands area. He's mainly inspired by the outdoors and beautiful things. 
+He currently has an epic beard.
 
 
