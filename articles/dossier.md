@@ -87,3 +87,8 @@ also has ran multiple Startup Weekends.
 Sam is the main guy at Launchpad.la. Launchpad is one of the main accelerators in 
 the LA area. 
 
+### Hattan Shobokshi <https://twitter.com/hattan>
+
+Hattan runs SoCalCodeCamp - which is one of the better events in Southern
+California. He's a Microsoft MVP, technical speaker, JavaScripter, and is good at
+building friendly tech communities.
