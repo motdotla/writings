@@ -93,7 +93,7 @@ Hattan runs SoCalCodeCamp - which is one of the better events in Southern
 California. He's a Microsoft MVP, technical speaker, JavaScripter, and is good at
 building friendly tech communities.
 
-### Shulin Jia <s.lin.jia@gmail>
+### Shulin Jia <https://github.com/shulinj>
 
 Shulin is a student at UCLA and active in a technology club at UCLA called
 <http://upe.seas.ucla.edu>. She organizes technology talks at UCLA and helps
