@@ -40,7 +40,7 @@ Replace car alarms with push notifications or text messages to your phone
 
 USB shoes. The shoes charge em the laces have USB or miniusb ends
 
-Geocoded git commits. It'd be interesting to see when/where I was more productive with my code. Maybe it was on a bus to Phoenix.
+Geocoded git commits. It'd be interesting to see when/where I was more productive with my code. Maybe it was on a bus to Phoenix. Resources for this: https://github.com/robmathers/WhereAmI, git@github.com:lindes/get-location.git 
 
 An app that tells you how many times you open other apps. So you can stop being fucking ADD.
 
