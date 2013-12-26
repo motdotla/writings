@@ -37,6 +37,7 @@ Also, hyperlinks for the win.
 * [Events Calendar](https://basecamp.com/1901156/calendar)
 * [Prinfection](https://www.printfection.com/account/secure_login.php)
 * [Concur for Expenses](https://www.concursolutions.com/portal.asp)
+* [Chase](https://chaseonline.chase.com/Logon.aspx)
 * [Wiki (confluence)](https://wiki.sendgrid.net)
 * [Jira](https://jira.sendgrid.net)
 * [People @SendGrid](https://sites.google.com/a/sendgrid.com/portal/departments/human-resources/peoplegallery)
