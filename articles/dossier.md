@@ -98,3 +98,17 @@ building friendly tech communities.
 Shulin is a student at UCLA and active in a technology club at UCLA called
 <http://upe.seas.ucla.edu>. She organizes technology talks at UCLA and helps
 spread the word about hackathons. She's a really helpful, kind person.
+
+### Miguel Martinez <ucr email>
+
+Miguel is one of the main organizers of ACM (Association for Computing Machinery)
+at UCR. He likes to write embedded programers using C and C++. He's actively
+increased the amount of technology events at UCR focused on hacking and learning
+hacking.
+
+### Brandon Huynh
+
+Brandon is one of the main organizers of ACM (Association for Computing Machinery)
+at UCR. He likes to write in newer languages like Objective C and Node, but also
+knows Java and C++. He works closely with Miguel to bring cool events to UCR 
+for the sake of hacking. 
