@@ -106,9 +106,25 @@ at UCR. He likes to write embedded programers using C and C++. He's actively
 increased the amount of technology events at UCR focused on hacking and learning
 hacking.
 
-### Brandon Huynh
+### Brandon Huynh <ucr email>
 
 Brandon is one of the main organizers of ACM (Association for Computing Machinery)
 at UCR. He likes to write in newer languages like Objective C and Node, but also
 knows Java and C++. He works closely with Miguel to bring cool events to UCR 
 for the sake of hacking. 
+
+### Victor Hill <ucr email>
+
+Victor works at UCR running most of their computer systems. He's a member of
+Riverside.io and is active in the tech community at UCR. He's close with the ACM
+students and is generally well known and well liked at UCR. He's helping with 
+mentoring and logistics for a possible large-scale student run hackathon at UCR.
+
+### Jun Wang <ucr email> 
+
+Jun is the director of student development at UCR. He's an efficient and friendly
+person who has done a lot for the students. He's also built strong relationships
+at the city of Riverside. He's to the point and matter of fact with his opinions.
+He's willing and quite able to promote events outside UCR within UCR.
+
+
