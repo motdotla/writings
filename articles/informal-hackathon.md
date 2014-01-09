@@ -10,7 +10,7 @@ Publicize your event on [Meetup.com](http://meetup.com), tweet it out, and put u
 
 My friends and I recently did this at [Riverside.io](http://riverside.io). We threw a [New Years Eve Hackathon](https://www.hackerleague.org/hackathons/riverside-dot-io-new-years-hackathon-2014). Eleven people attended, [multiple](http://github.com/scottmotte/ansible-dogecoind) [different](http://github.com/scottmotte/kibble) [hacks](https://github.com/kevinchandler/kibble-frontend) were made and [built](https://github.com/riversideio/magnolia-bloom) upon. We had champagne at New Years and then went back to hacking. I met new people, learned new things, taught some things, and coded all night long. It was a wonderful informal experience.
 
-The food was informal, sleeping was informal (bring your own sleeping bag), and the prize for best hack was informal. It was a Hobbit (the movie) themed set of Pez dispensers. We picked it up last minute at the nearby CVS Pharmacy.
+The food was informal, sleeping was informal (bring your own sleeping bag), and the prize for best hack was informal. It was a Hobbit (the movie) themed set of [Pez dispensers](http://www.candyfavorites.com/the-hobbit-unexpected-journey-pez-dispensers?gclid=CNyboduV8rsCFa10Qgod50UAEg). We picked it up last minute at the nearby CVS Pharmacy.
 
 ![](https://raw.github.com/scottmotte/writings/master/images/informal-hackathon-3.jpg)
 
