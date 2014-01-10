@@ -52,3 +52,5 @@ It would be cool that as you hit certain keys on your keyboard it would record s
 Houses should be smart with their lights. When the sun starts going down they should start dimming. They should turn off completely in certain rooms like the tv room - which would force me to move to my bedroom where there is still a light on. Then I'd sit down to read and unwind, and then that should makes its way to eventually dim out and then my body would physically feel it is time for bed and I would go to bed at a decent hour. I shouldn't have to make decisions about turning off lights. My environment should make it for me like it does in the wild. My house, being my environment, should make the decisions healthy for me.
 
 Do a blog post on hello world go to heroku deploy
+
+If hypermedia could be implemented like it is envisioned it will likely take some great clients - like the web has a few key/great ones - Chrome, Firefox, IE. And interestingly those clients would become the clients we developers would all use to interact with APIs. We'd all stop writing libraries in our individual languages. Just random thought I wanted to write down.
