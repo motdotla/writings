@@ -53,4 +53,4 @@ Houses should be smart with their lights. When the sun starts going down they sh
 
 Do a blog post on hello world go to heroku deploy
 
-If hypermedia could be implemented like it is envisioned it will likely take some great clients - like the web has a few key/great ones - Chrome, Firefox, IE. And interestingly those clients would become the clients we developers would all use to interact with APIs. We'd all stop writing libraries in our individual languages. Just random thought I wanted to write down.
+If hypermedia could be implemented like it is envisioned it will likely take some great clients - like the web has a few key/great ones - Chrome, Firefox, IE. And interestingly those clients would become the clients we developers would all use to interact with APIs. We'd all stop writing libraries in our individual languages. Just random thought I wanted to write down. There's an opportunity there to build those clients. The best client(s) will win.
