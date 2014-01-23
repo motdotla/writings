@@ -46,6 +46,8 @@ Also, hyperlinks for the win.
 * [ZenDesk](http://sendgrid.zendesk.com)
 * [Dev Relations Folder](https://drive.google.com/a/sendgrid.com/folderview?id=0BylUy8qNrn_VTmZKNlNIcU5aVjA&usp=sharing)
 * [SendGrid and ajax](https://gist.github.com/scottmotte/6fa978692af8bcc32763)
+* [Splunk](https://splunk.sendgrid.net)
+* [BrandFolder](http://brandfolder.com/sendgrid)
 
 ## LA
 
