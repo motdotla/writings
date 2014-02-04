@@ -29,6 +29,7 @@ Also, hyperlinks for the win.
 ## Perspective
 
 * ["My role is to be on the bottom of things"](http://www-cs-faculty.stanford.edu/~uno/email.html)
+* [The Slow Web](http://jackcheng.com/the-slow-web)
 
 ## SendGrid
 
