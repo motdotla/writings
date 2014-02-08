@@ -1,6 +1,6 @@
 # sendgrid-delivered
 
-Notes for SendGrid delivered presentaiton.
+Notes for SendGrid delivered presentation.
 
 ## Intro scottmotte
 
@@ -52,7 +52,17 @@ You can pass variables and replace those quickly.
 
 ### Send email through HTTP!
 
-Here's an example of that using th ecurl command.
+Here's an example of that using the curl command.
+
+https://api.sendgrid.com/api/mail.send.json?api_user=purdue&api_key=purdue&to=mot@sendgrid.com&from=mot@sendgrid.com&subject=Hello&text=hiya
+
+curl -X POST https://api.sendgrid.com/api/mail.send.json \
+-d api_user=purdue \
+-d api_key=purdue \
+-d to=mot@sendgrid.com \
+-d from=mot@sendgrid.com \
+-d subject=Hello \
+-d text=hiyados
 
 ### Why Web API
 
