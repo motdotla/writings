@@ -66,4 +66,6 @@ Turn hollywood pictures into something funny? Pictures are funny so sending in a
 
 Send email via encrypted speakers?
 
+Twilio starts with their receiving first. My demo needs to start by receiving first - it gets the audience involved right away. You ask them to get out their phones and send an email with a photo. Then you write the code to send the email - and they all start receiving the emails. Love the way Nick's plays sounds. At least if they received a funny email back or something though. 
+
  
