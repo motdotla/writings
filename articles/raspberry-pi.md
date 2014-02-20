@@ -49,10 +49,4 @@ Finally, push your changes up to your Raspberry Pi.
 ansible-playbook playbook.yml -i hosts --ask-pass --sudo -c paramiko
 ```
 
-Finally, run, sudo reboot.
-
-```
-sudo reboot
-```
-
 That's it. Now you can unplug the ethernet cord and the Raspberry Pi will work over Wifi. Give it some time to make the connection.
