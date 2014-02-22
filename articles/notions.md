@@ -62,3 +62,5 @@ Possible article - do a talk on the digitalocean gem I've built and how it's met
 You should be punished for sending email after hours. There should be an email client for businesses that punishes it's employees for trying to send email after certain business hours. This shouldn't punish them in a bad way, but it could go into their performance reviews. At the very least it'd be handy data for a company to know - how many of their employees are needing to work after hours. Maybe they are working too hard, maybe the hard work was necessary because the company was young, maybe no work is getting done in the office environment.
 
 Small binary running process or installable Mac app, that watches your Networks in your Preferred Networks list and uploads the Network name and password to the cloud - as a bugmenot type application but for wifi networks.
+
+A swimming app using Leap Motion.
