@@ -41,7 +41,7 @@ cp hosts.example hosts
 cp wpa_supplicant.conf.example wpa_supplicant.conf
 ```
 
-Edit the wpa_supplicant.conf and hosts files with your credentials.
+Edit the wpa_supplicant.conf and hosts files with all the proper credentials.
 
 Finally, push your changes up to your Raspberry Pi.
 
