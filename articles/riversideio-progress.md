@@ -4,7 +4,16 @@ Progress to show to Greg Lee of Riverside. Since January 1.
 
 ## Photos
 
-
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio0.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio1.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio2.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio3.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio4.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio5.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio6.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio7.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio8.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio9.jpg)
 
 ## Members
 
