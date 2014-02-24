@@ -4,7 +4,7 @@ Progress to show to Greg Lee of Riverside. Since January 1.
 
 ## Summary
 
-* 18 Members
+* 19 Members
 * $11,000 in savings
 * 12 events per month
 * Events educating ~150 people in technology
@@ -26,11 +26,11 @@ Progress to show to Greg Lee of Riverside. Since January 1.
 
 ## Members
 
-18 total members.
+19 total members.
 
 ### New
 
-We've added 6 new members in January and February. 
+We've added 7 new members in January and February. 
 
 One of these is Gustavo. He is a student at UCR and wanted to get more involved in startups to supplement his computer science studies. He decided Riverside.io is the place to be for that. 
 
@@ -43,6 +43,8 @@ The fourth of these is Judd. Judd moved from Las Vegas just last week. He organi
 Kevin Carrington - CEO of Carrington Case. He's building a great product and is using Riverside.io as his main offices. He's also organizing a day long event to teach kids to code at Riverside.io in March.
 
 Melissa Morgan - Melissa is a creative and a web designer. She's also has worked with the The Heart of America Foundation as their Director of External Communications for many years.
+
+Patrick Edgett - He's building a startup in the area called Waitless.
 
 ### Notable current
 
