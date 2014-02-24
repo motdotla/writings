@@ -102,4 +102,5 @@ Averaging 10 events a month bringing in approximately 100-150 people into the sp
 * Listed on [desktime app](https://www.desktimeapp.com/directory?location=riverside%2C+ca&latitude=33.9533487&longitude=-117.3961564)
 * Our members are active in attending other hackathons and tech events in the Southern California area - things like CodeDay, hackTech, and meetups like JS LA, LA Golang, and more.
 * 386 check-ins on Foursquare.
+* 159 Twitter followers.
 * ALWAYS BE YOURSELF UNLESS YOU CAN BE A UNICORN THEN ALWAYS BE A UNICORN
