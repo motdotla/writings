@@ -2,6 +2,15 @@
 
 Progress to show to Greg Lee of Riverside. Since January 1.
 
+## Summary
+
+* 18 Members
+* $11,000 in savings
+* 12 events per month
+* Events educating ~150 people in technology
+* Some members lives are markedly improving being part of Riverside.io's 'tech scene'. 
+* Open sourcing our code
+
 ## Photos
 
 ![](https://raw.github.com/scottmotte/writings/master/images/riversideio0.jpg)
@@ -44,7 +53,9 @@ Melissa Morgan - Melissa is a creative and a web designer. She's also has worked
 
 ## Events
 
-### Recurring once a month:
+Averaging 10 events a month bringing in approximately 100-150 people into the space over the course of these events. 
+
+#### Recurring once a month:
 
 * RiversideJS - 30 persons per meeting
 * StartupIE - 40 per meeting
@@ -54,12 +65,12 @@ Melissa Morgan - Melissa is a creative and a web designer. She's also has worked
 * Junior Coders - 5 per meeting
 * Cat Gif meetup - 5 per meeting
 
-### Newly recurring:
+#### Newly recurring:
 
 * Riverside Ruby - 10 estimated
 * Raspberry Pi meetup - 10 estimated
 
-### Unique:
+#### Unique
 
 * Carrington Case Launch Party - 40 persons
 * AAF (American Advertising Federation) Inland Empire held their VIP event at Riverside.io
@@ -67,27 +78,28 @@ Melissa Morgan - Melissa is a creative and a web designer. She's also has worked
 * Game Night - 5 persons
 * Movie night #1 - 3 persons
 
-### Relationship Building:
+## Relationships 
 
 * Riverside.io is sponsoring Citrus Hack - The Inland Empire's First Collegiate Hackathon! ~100-150 college hackers expected to attend.
 * Communicating and building relationship w/ PeopleSpace (coworking space in the OC)
 * Met w/ Riverside County's Teri LeBouthillier (IT Lead Organizer) to give them advice on how to run a hackathon well. They are planning one for the county
 
-### Money
+## Money
 
 * Financially in the black
-* Good amount of savings
+* $11,000 in savings. 
 * Actively seeking a larger space to move into (faster internet is also a part of the move) 
 
-### Tech
+## Code
 
 * Open sourcing our automated membership system
 * Open sourcing our automated RFID door access system
 
-## Other
+## Miscellaneous
 
+* New Years Eve Hackathon
+* Placed #1 on Google for 'Riverside coworking'
 * Listed on [desktime app](https://www.desktimeapp.com/directory?location=riverside%2C+ca&latitude=33.9533487&longitude=-117.3961564)
-* ALWAYS BE YOURSELF UNLESS YOU CAN BE A UNICORN THEN ALWAYS BE A UNICORN
 * Our members are active in attending other hackathons and tech events in the Southern California area - things like CodeDay, hackTech, and meetups like JS LA, LA Golang, and more.
 * 386 check-ins on Foursquare.
-
+* ALWAYS BE YOURSELF UNLESS YOU CAN BE A UNICORN THEN ALWAYS BE A UNICORN
