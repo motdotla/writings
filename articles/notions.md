@@ -64,3 +64,7 @@ You should be punished for sending email after hours. There should be an email c
 Small binary running process or installable Mac app, that watches your Networks in your Preferred Networks list and uploads the Network name and password to the cloud - as a bugmenot type application but for wifi networks.
 
 A swimming app using Leap Motion.
+
+Cat Gifs for profit - Curated list of catgifs that people pay to subscribe to. Or purchase cat gifs. Posters of catgifs. 
+
+GifCamera - Mobile Camera app that just creates gifs. Make it really simple, it just makes a short gif. No options. And make it really easy to share on the web. Gifs can be shared really easily on the web - better than videos like Vine where you are locked into that little community. Make it open source like Telegram. Gif pic does this but there is no social aspect to it. You get bored of it. 
