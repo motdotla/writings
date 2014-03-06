@@ -74,3 +74,5 @@ Signals - The future of APIs might be like this: `POST /some/endpoint/resource.j
 Zombie Apocolypse game - mobile app using bluetooth 2.0. It simulates a zombie apocolypse but as a game. Say there are 1,000 people in a game, it starts w/ 10 of them infected. The infected earn points for infecting others. The humans earn points for length of time not being infected. It uses the bluetooth 2.0 to infect. Get close enough, and the person is infected. Optionally, you could pay to protect yourself from infection for a certain amount of time - for example, if you want to go out at night or to the movie theatre and don't want to worry about being infected.
 
 Focusing on emotions and exploring that for your product or idea rather than logic and usefulness. Then dig for usefulness in those emotions and how they affect an individual.
+
+App that is like <http://1secondeveryday.com/> but just an app that only takes 1-2 second videos. Then let the app automatically pick one of those based on a machine learning algorithim of waht is interesting.
