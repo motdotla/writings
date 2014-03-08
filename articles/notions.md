@@ -76,3 +76,5 @@ Zombie Apocolypse game - mobile app using bluetooth 2.0. It simulates a zombie a
 Focusing on emotions and exploring that for your product or idea rather than logic and usefulness. Then dig for usefulness in those emotions and how they affect an individual.
 
 App that is like <http://1secondeveryday.com/> but just an app that only takes 1-2 second videos. Then let the app automatically pick one of those based on a machine learning algorithim of waht is interesting.
+
+Building an app on top of Telegram. I really like what Telegram is doing. WhatsApp is still the main one, but already in Singapore people might be switching to Telegram. I learned last night that Singapore is going to somehow try and charge for WhatsApp texts above and beyond WhatsApp. Legal changes like this would really hurt WhatsApp. But Telegram's goal is to always be free. Maybe group based tools would be helpful - hitchhiking/ride-share apps maybe comes to mind while being in Austin and there not being good rideshares. 
