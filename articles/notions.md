@@ -80,3 +80,5 @@ App that is like <http://1secondeveryday.com/> but just an app that only takes 1
 Building an app on top of Telegram. I really like what Telegram is doing. WhatsApp is still the main one, but already in Singapore people might be switching to Telegram. I learned last night that Singapore is going to somehow try and charge for WhatsApp texts above and beyond WhatsApp. Legal changes like this would really hurt WhatsApp. But Telegram's goal is to always be free. Maybe group based tools would be helpful - hitchhiking/ride-share apps maybe comes to mind while being in Austin and there not being good rideshares. 
 
 Delivery of white shoes every 2 weeks. Subsctription service. Start w/ Converse. Make you look fly. Return the old ones and get credit toward the next. The old ones get sold really cheap on our online store. Those could be sold at really cheap rates because they are 'preowned'. Make it fly, make it cool, and make it convenient. This idea was thought of w/ Heitor while at SxSW when he had his Microsoft shoes.
+
+Snapchat on top of Telegram.
