@@ -84,3 +84,5 @@ Delivery of white shoes every 2 weeks. Subsctription service. Start w/ Converse.
 Snapchat on top of Telegram.
 
 Squirt.io for chat - built on top of Telegram.
+
+Building an app that has mutations built into it. Those mutations change something, and then users of the app either like that change or don't. The good mutations win out. Likely this would also require you to write bots to use your app. These bots would simulate the environment, but would somehow have to be smart to choose mutations.
