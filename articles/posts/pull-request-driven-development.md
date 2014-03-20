@@ -22,11 +22,15 @@ This works great because:
 2. It allows non-employees to easily and safely contribute to our open source libraries. 
 3. It provides an archive for conversations around a particular bug fix or feature addition.
 
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/pull-request-driven-development-1.png)
+
 On the [sendgrid-nodejs](https://github.com/sendgrid/sendgrid-nodejs) library we've closed [112](https://github.com/sendgrid/sendgrid-nodejs/pulls?direction=desc&page=1&sort=created&state=closed) pull requests alone. Even on a brand new library like [sendgrid-go](https://github.com/sendgrid/sendgrid-go), we've closed [9](https://github.com/sendgrid/sendgrid-go/pulls?direction=desc&page=1&sort=created&state=closed). Each of those features or bugs have code and a conversation attached them, and many of the pull requests are from non-employees contributing their time and knowledge.
 
 So I highly recommend using GitHub Pull requests. If you're not using them for open source, you're doing it wrong. 
 
 ## Open a pull request, get a shirt
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/pull-request-driven-development-2.png)
 
 If you haven't ever opened a pull request (or rarely have), I've setup the following for you. [Startup Shirts](http://www.scottmotte.com/startup-shirts.html).
 
