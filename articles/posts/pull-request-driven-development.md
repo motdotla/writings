@@ -4,7 +4,7 @@
 
 ## Some background
 
-There is necessarily a lot of discussion that happens when writing code. On a team of 1, this discussion happens in your brain. On a local team of 2 or 3, it happens IRL. These approaches work ok, but they break down when the team is remote and/or 4+ people.
+There is necessarily a lot of discussion that happens when writing code. On a team of 1, this discussion happens in your brain. On a local team of 2 or 3, it happens [IRL](http://www.urbandictionary.com/define.php?term=IRL). These approaches work ok, but they break down when the team is remote and/or 4+ people.
 
 So, how do you avoid this breakdown in communication? 
 
@@ -30,7 +30,7 @@ We really like when non-employees contribute to our libraries. They catch things
 
 As a result, we reward them. If you open a pull request for one of SendGrid's libraries, and we accept it, we mail you an awesome "SendGrid Contributor" badge. These are rare and pretty cool.
 
-![](https://raw.githubusercontent.com/scottmotte/writings/master/images/pull-request-driven-development-3.png)
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/pull-request-driven-development-3.jpg)
 
 So I highly recommend using GitHub Pull requests. If you're not using them for open source, you're doing it wrong. 
 
