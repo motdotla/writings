@@ -26,6 +26,12 @@ This works great because:
 
 On the [sendgrid-nodejs](https://github.com/sendgrid/sendgrid-nodejs) library we've closed [112](https://github.com/sendgrid/sendgrid-nodejs/pulls?direction=desc&page=1&sort=created&state=closed) pull requests alone. Even on a brand new library like [sendgrid-go](https://github.com/sendgrid/sendgrid-go), we've closed [9](https://github.com/sendgrid/sendgrid-go/pulls?direction=desc&page=1&sort=created&state=closed). Each of those features or bugs have code and a conversation attached them, and many of the pull requests are from non-employees contributing their time and knowledge.
 
+We really like when non-employees contribute to our libraries. They catch things that honestly sometimes we don't. 
+
+As a result, we reward them. If you open a pull request for one of SendGrid's libraries, and we accept it, we mail you an awesome "SendGrid Contributor" badge. These are rare and pretty cool.
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/pull-request-driven-development-3.png)
+
 So I highly recommend using GitHub Pull requests. If you're not using them for open source, you're doing it wrong. 
 
 ## Open a pull request, get a shirt
