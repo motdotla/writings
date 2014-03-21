@@ -1,8 +1,9 @@
 # Rockets and Arduinos
 
-An arduino is an over the counter affordable microcrontroller. You can do all kinds of things with them like control your garage door, build robots, and even launch rockets.
+An arduino is a microcrontroller. You can program them to do things like control your garage door, control a robot, or launch rockets.
 
-In this tutorial, I am going to show you how to build a countdown timer using an Arduino and NodeJS to launch a rocket. 
+In this tutorial, I am going to show you how to launch a rocket with an Arduino. We will write a countdown timer using Node.js and use the Arduino to programmatically send the electrical signal to launch the rocket.
+  
 # Pre-requisites 
 
 You will need the following materials:
@@ -39,14 +40,14 @@ Open up the StandardFirmata software, and press the 'Upload' button.
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-4.jpg)
 
-This will install StandardFirmata onto the Arduino.
+This will install [StandardFirmata](http://firmata.org/wiki/Main_Page) onto the Arduino.
 
-Now, let's create our countdown timer script.
+Create the countdown timer program. Open up terminal and type the following.
 
 ```
 mkdir rocket
 cd rocket
-npm init   # hit enter to just accept all the defaults
+npm init   # hit enter multiple times to accept all the defaults
 npm install johnny-five --save
 vim launch.js
 ```
@@ -88,63 +89,64 @@ board.on("ready", function() {
 });
 ```
 
-Ok, that will communicate with pin 10 to send an electronic 5 volt signal. We will use that signal to send the 9 volt electronic pulse to the rocket's electronic starter. Let's do some wiring.
+This program communicates with pin 10 to send an electronic 5 volt signal. We will use the 5 volt signal as a communication protocal. It will tell the 9 volt battery to send electricity to the rocket engine's electronic starter - igniting the engine. 
 
-## Hardware Setup
+## Wire it up
+
+
+1. Place the relay on the board. We are going to use the relay to control the 9V battery power. 
+2. Wire ground (black wires) to the battery, to the GND pin on the Arduino, and to one of the switch pins on the relay. 
+3. Wire the positive (red wires) to the battery, to pin 10 on the Arduino, and to the other switch pin on the relay. 
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-6.jpg)
 
-First place, the relay on the board. We are going to use the relay to control the 9V battery power. Next, wire ground (black wires) to the battery, to the ground on Arduino, and to the ground on the relay. Next, wire the positive (red wires) to the battery, to pin 10 on the Arduino, and to the positive on the relay. 
+Wiring can be tricky - even with a basic circuit like this. Try to mimic the picture above. 
 
-Wiring can be tricky - even with a basic circuit like this. To test it out, connect the final positive and negative to a multimeter. Set the multimeter to DC voltage, and run our node script.
+To test it out, connect the outgoing positive and negative to a multimeter. Set the multimeter to DC voltage, and run the launch.js node program.
 
 ```
 node launch.js
 ```
 
-On launch, the multimeter should show approximately 9 volts. This is simulating the voltage we will send to the rocket engine. 
+If you did it right, the multimeter will read approximately 9 volts.
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-7.jpg)
 
 ## Prepare the Engine
 
-Next, let's prepare our rocket engine. Place the electronic match in the engine, and then place the plug over it. Bend the electronic match slightly to the side. 
+Next, prepare the rocket engine. 
+
+1. Place the electronic match in the engine
+2. Insert the plug to hold it in place 
+3. Bend the electronic match wires to the side
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-8.jpg)
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-9.jpg)
 
-Now, for the final step. 
+## Connect everything for launch
 
-## Prepare for Launch
+**Caution with this step. If you accidentally send the 9 Volts down the wire before running your program, the rocket will ignite in your hands.**
 
-Be careful with this step. If you accidentally send the 9 Volts down the wire before running your script, the rocket will ignite in your hands.
-
-First, put the engine somewhere safe. I've placed mine in a vise for this demo. You could also put it inside your rocket. 
+1. Place the engine somewhere safe. I've placed mine in a vise. You could also put it inside your rocket. 
+2. Connect a longer wire to the ends of the electronic match. Make sure they do not touch each other.
+3. Connect the ends of the longer wire to the positives and negatives coming off the previously built Arduino circuit.
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-10.jpg)
 
-Connect longer wires to the ends of the electronic match. Make sure they do not touch each other.
-
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-11.jpg)
-
-Then connect the ends of the longer wire to the positives and negatives coming off the Arduino circuit.
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-12.jpg)
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-13.jpg)
 
-
 ## Launch
 
-Run the script and your launch your rocket!
+Run the program and your launch your rocket!
 
 ```
 node launch.js
 ```
-
-
-
  
 
 
