@@ -3,12 +3,11 @@
 An arduino is an over the counter affordable microcrontroller. You can do all kinds of things with them like control your garage door, build robots, and even launch rockets.
 
 In this tutorial, I am going to show you how to build a countdown timer using an Arduino and NodeJS to launch a rocket. 
-
-Let's get to it.
-
 # Pre-requisites 
 
 You will need the following materials:
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-5.jpg)
 
 [Arduino Mega 2560 Board](http://www.amazon.com/Arduino-MEGA-2560-Board-R3/dp/B006UTBDGA/ref=sr_1_2?srs=2582406011&ie=UTF8&qid=1395423966&sr=8-2&keywords=arduino+mega). You could use a different Arduino board, but I recommend the Mega.
 
@@ -26,11 +25,19 @@ A 5 Volt Relay. I purchased mine at [Electronics Warehouse](http://4sq.com/bIWGY
 
 First, [install Node.js](http://nodejs.org/).
 
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-2.jpg)
+
 Next, [install the Arduino software](http://arduino.cc/en/main/software#.UyyMs61dVIs).
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-1.jpg)
 
 Plug your Arduino into your computer, and open up the Arduino software you just installed. 
 
 Open up the StandardFirmata software, and press the 'Upload' button.
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-3.jpg)
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-4.jpg)
 
 This will install StandardFirmata onto the Arduino.
 
@@ -85,6 +92,8 @@ Ok, that will communicate with pin 10 to send an electronic 5 volt signal. We wi
 
 ## Hardware Setup
 
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-6.jpg)
+
 First place, the relay on the board. We are going to use the relay to control the 9V battery power. Next, wire ground (black wires) to the battery, to the ground on Arduino, and to the ground on the relay. Next, wire the positive (red wires) to the battery, to pin 10 on the Arduino, and to the positive on the relay. 
 
 Wiring can be tricky - even with a basic circuit like this. To test it out, connect the final positive and negative to a multimeter. Set the multimeter to DC voltage, and run our node script.
@@ -95,9 +104,15 @@ node launch.js
 
 On launch, the multimeter should show approximately 9 volts. This is simulating the voltage we will send to the rocket engine. 
 
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-7.jpg)
+
 ## Prepare the Engine
 
 Next, let's prepare our rocket engine. Place the electronic match in the engine, and then place the plug over it. Bend the electronic match slightly to the side. 
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-8.jpg)
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-9.jpg)
 
 Now, for the final step. 
 
@@ -105,11 +120,20 @@ Now, for the final step.
 
 Be careful with this step. If you accidentally send the 9 Volts down the wire before running your script, the rocket will ignite in your hands.
 
-First, put the engine in a rocket or something safe. I've placed mine in a vise.
+First, put the engine somewhere safe. I've placed mine in a vise for this demo. You could also put it inside your rocket. 
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-10.jpg)
 
 Connect longer wires to the ends of the electronic match. Make sure they do not touch each other.
 
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-11.jpg)
+
 Then connect the ends of the longer wire to the positives and negatives coming off the Arduino circuit.
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-12.jpg)
+
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-13.jpg)
+
 
 ## Launch
 
@@ -119,7 +143,6 @@ Run the script and your launch your rocket!
 node launch.js
 ```
 
-INSERT VIDEO HERE
 
 
  
