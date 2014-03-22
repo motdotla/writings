@@ -4,7 +4,7 @@ An [Arduino](http://www.arduino.cc/) is an easy to use microcrontroller. They ar
 
 In this tutorial, I am going to show you how to [launch a rocket with an Arduino](https://vimeo.com/89754340). We will write a countdown timer using Node.js and use the Arduino to programmatically send the electrical signal to launch the rocket.
   
-# Pre-requisites 
+# Prerequisites 
 
 You will need the following materials:
 
