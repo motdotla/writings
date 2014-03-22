@@ -84,7 +84,7 @@ board.on("ready", function() {
 });
 ```
 
-This program communicates with pin 10 to send an electronic 5 volt signal. We will use the 5 volt signal as a communication protocal. It will tell the 9 volt battery to send electricity to the rocket engine's electronic starter - igniting the engine. 
+This program communicates with pin 10 to send an electronic 5 Volt signal. We will use the 5 Volt signal as a communication protocal. It will tell the 9 Volt battery to send electricity to the rocket engine's electronic starter - igniting the engine. 
 
 ## Wire it up
 
@@ -103,7 +103,7 @@ To test it out, connect the outgoing positive and negative to a multimeter. Set 
 node launch.js
 ```
 
-If you did it right, the multimeter will read approximately 9 volts.
+If you did it right, the multimeter will read approximately 9 Volts.
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-7.jpg)
 
