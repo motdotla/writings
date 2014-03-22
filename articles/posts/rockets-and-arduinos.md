@@ -10,17 +10,12 @@ You will need the following materials:
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/rockets-arduinos-5.jpg)
 
-[Arduino Mega 2560 Board](http://www.amazon.com/Arduino-MEGA-2560-Board-R3/dp/B006UTBDGA/ref=sr_1_2?srs=2582406011&ie=UTF8&qid=1395423966&sr=8-2&keywords=arduino+mega). You could use a different Arduino board, but I recommend the Mega.
-
-[NodeJS](http://nodejs.org) installed on your computer. It is relatively easy to install. You can [go here to install it](http://nodejs.org).
-
-[9 Volt Battery](http://www.amazon.com/Duracell-Alkaline-Batteries-Coppertop-Pack/dp/B004DE54AA/ref=sr_1_2?ie=UTF8&qid=1395426261&sr=8-2&keywords=9+volt+battery) and a [9 Volt Battery clip](http://www.amazon.com/Gino-Battery-Connectors-Buckle-Cable/dp/B00E0KG9DI/ref=sr_1_2?s=electronics&ie=UTF8&qid=1395426586&sr=1-2&keywords=9+volt+wire).
-
-[Breadboard and Jumper Wires](http://www.amazon.com/microtivity-IB401-400-point-Experiment-Breadboard/dp/B004RXKWDQ/ref=sr_1_1?ie=UTF8&qid=1395426281&sr=8-1&keywords=bread+board)
-
-A 5 Volt Relay. I purchased mine at [Electronics Warehouse](http://4sq.com/bIWGYa) in my hometown, but you could purchase one like [this](http://www.amazon.com/Amico-Coil-Power-Relays-HHC66A-1Z-12VDC/dp/B008MU206C/ref=sr_1_1?ie=UTF8&qid=1395426328&sr=8-1&keywords=5+volt+relay) or [this](http://www.amazon.com/RobotGeek-RG-RELAY-Relay/dp/B00IS9I49Y/ref=sr_1_5?ie=UTF8&qid=1395426336&sr=8-5&keywords=5+volt+relay+arduino).
-
-[Rocket Engines](http://www.amazon.com/Estes-B4-4-Engine-Pack-3-Each/dp/B000QUXP3S/ref=sr_1_1?ie=UTF8&qid=1395426643&sr=8-1&keywords=rocket+engine) with [starters/electronic-matches](http://www.amazon.com/Estes-B4-4-Engine-Pack-3-Each/dp/B000QUXP3S/ref=sr_1_1?ie=UTF8&qid=1395426643&sr=8-1&keywords=rocket+engine), and [start plugs](http://www.amazon.com/Estes-B4-4-Engine-Pack-3-Each/dp/B000QUXP3S/ref=sr_1_1?ie=UTF8&qid=1395426643&sr=8-1&keywords=rocket+engine). 
+* [Arduino Mega 2560 Board](http://www.amazon.com/Arduino-MEGA-2560-Board-R3/dp/B006UTBDGA/ref=sr_1_2?srs=2582406011&ie=UTF8&qid=1395423966&sr=8-2&keywords=arduino+mega). You could use a different Arduino board, but I recommend the Mega.
+* [NodeJS](http://nodejs.org) installed on your computer. It is relatively easy to install. You can [go here to install it](http://nodejs.org).
+* [9 Volt Battery](http://www.amazon.com/Duracell-Alkaline-Batteries-Coppertop-Pack/dp/B004DE54AA/ref=sr_1_2?ie=UTF8&qid=1395426261&sr=8-2&keywords=9+volt+battery) and a [9 Volt Battery clip](http://www.amazon.com/Gino-Battery-Connectors-Buckle-Cable/dp/B00E0KG9DI/ref=sr_1_2?s=electronics&ie=UTF8&qid=1395426586&sr=1-2&keywords=9+volt+wire).
+* [Breadboard and Jumper Wires](http://www.amazon.com/microtivity-IB401-400-point-Experiment-Breadboard/dp/B004RXKWDQ/ref=sr_1_1?ie=UTF8&qid=1395426281&sr=8-1&keywords=bread+board)
+* A 5 Volt Relay. I purchased mine at [Electronics Warehouse](http://4sq.com/bIWGYa) in my hometown, but you could purchase one like [this](http://www.amazon.com/Amico-Coil-Power-Relays-HHC66A-1Z-12VDC/dp/B008MU206C/ref=sr_1_1?ie=UTF8&qid=1395426328&sr=8-1&keywords=5+volt+relay) or [this](http://www.amazon.com/RobotGeek-RG-RELAY-Relay/dp/B00IS9I49Y/ref=sr_1_5?ie=UTF8&qid=1395426336&sr=8-5&keywords=5+volt+relay+arduino).
+* [Rocket Engines](http://www.amazon.com/Estes-B4-4-Engine-Pack-3-Each/dp/B000QUXP3S/ref=sr_1_1?ie=UTF8&qid=1395426643&sr=8-1&keywords=rocket+engine) with [starters/electronic-matches](http://www.amazon.com/Estes-B4-4-Engine-Pack-3-Each/dp/B000QUXP3S/ref=sr_1_1?ie=UTF8&qid=1395426643&sr=8-1&keywords=rocket+engine), and [start plugs](http://www.amazon.com/Estes-B4-4-Engine-Pack-3-Each/dp/B000QUXP3S/ref=sr_1_1?ie=UTF8&qid=1395426643&sr=8-1&keywords=rocket+engine). 
 
 ## Software Setup
 
