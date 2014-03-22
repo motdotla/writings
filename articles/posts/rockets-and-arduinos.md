@@ -1,8 +1,8 @@
 # Rockets and Arduinos
 
-An arduino is a microcrontroller. You can program them to do things like control your garage door, control a robot, or launch rockets.
+An [Arduino](http://www.arduino.cc/) is an easy to use microcrontroller. They are made for hobbyists and artists. You can program them to do things like [control your garage door](http://www.instructables.com/id/Garage-Door-Opener-with-iphone-Arduino-project/), [control a robot](http://makezine.com/projects/build-your-own-arduino-controlled-robot/), or make an [LED cube](http://www.instructables.com/id/Led-Cube-8x8x8/).
 
-In this tutorial, I am going to show you how to launch a rocket with an Arduino. We will write a countdown timer using Node.js and use the Arduino to programmatically send the electrical signal to launch the rocket.
+In this tutorial, I am going to show you how to [launch a rocket with an Arduino](https://vimeo.com/89754340). We will write a countdown timer using Node.js and use the Arduino to programmatically send the electrical signal to launch the rocket.
   
 # Pre-requisites 
 
@@ -148,5 +148,6 @@ Run the program and your launch your rocket!
 node launch.js
 ```
  
+[Watch it on Vimeo](https://vimeo.com/89754340).
 
 
