@@ -2,6 +2,47 @@
 
 Progress to show to Greg Lee of Riverside. Since January 1.
 
+# March
+## Summary
+
+* 20 Members
+* $10,500 in savings
+* 12 events per month
+* Events educating ~150 people in technology
+* Kevin Chandler is starting a startup called Steppr. It collects all the steps you've taken using your Fitbit or such device, and builds an interface around them so that you can apply those steps to charities like Walk for Cancer.
+* Thought leader on hackathons to Riverside County's Teri LeBouthillier
+* Seeking out a new space!
+
+## Members
+
+20 total members.
+
+## New
+
+* StartupIE continues there presentations to prepare you for StartupWeekend.
+* Taught kids how to launch rockets using Arduinos and computers. Built their own countdown timers, programmed, and did some electrical engineering.
+* Sponsored the Inland Empire's first collegiate hackathon - Citrus Hack.
+* Waitless - a startup out of Riverside.io - was featured [on PandoDaily](http://pando.com/2014/02/28/waitless-wants-you-to-never-have-to-line-up-for-anything-again/).
+* We were at the ESRI hackathon in Palm Springs.
+* Started the hashtag #riversidetech for all things Riverside Tech.
+* Looking into sponsorships.
+
+## Photos
+
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio10.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio11.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio12.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio13.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio14.png)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio15.jpg)
+![](https://raw.github.com/scottmotte/writings/master/images/riversideio16.jpg)
+
+## Miscellaneous
+
+* 177 Twitter followers
+* 480 Foursquare check-ins
+
+# February
 ## Summary
 
 * 19 Members
