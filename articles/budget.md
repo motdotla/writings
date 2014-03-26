@@ -8,3 +8,4 @@ Costs are rounded, and per year.
 | ------------------------------------------- | ----------------------- |
 | Toyota Truck Auto Insurance                 | $500                    |
 | Toyota Truck DMV Registration               | $125                    |
+| Renters Insurance *optional                 | $240                    |
