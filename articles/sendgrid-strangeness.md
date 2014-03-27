@@ -5,3 +5,4 @@
 * setBcc is not supported with attachments
 * subject is required when using the Web API (and won't let you send), but is NOT required when using the smtp API
 * BCC field does not work if placing a TO in the x-smtpapi headers. BCC does work if the TO address is only in the regular TO field.  
+* CC field does not work at all. It's absolutely not supported in web API.
