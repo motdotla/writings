@@ -13,7 +13,7 @@ Wasn't that easy! SendGrid uses a [Web API](http://sendgrid.com/docs/API_Referen
 
 Next Steps:
 
-Option 1: Likely, you program in a language like PHP, Ruby or Node.js. We have drop-in libraries ready to go for you! Check them out [on our GitHub Page](https://github.com/sendgrid).
+Option 1: Likely, you program in a language like [PHP](http://github.com/sendgrid/sendgrid-php), [Java](http://github.com/sendgrid/sendgrid-java) or [Node.js](http://github.com/sendgrid/sendgrid-nodejs). Whatever language you code in, we probably have a drop-in libraries ready to go for you! Check them out [on our GitHub Page](https://github.com/sendgrid).
 
 Option 2: Or if you are looking to simply change your SMTP credentials with your current setup, we support that too with our [SMTP Relay](http://sendgrid.com/docs/Integrate/index.html). Instructions to change your SMTP credentials are [here](http://sendgrid.com/docs/Integrate/index.html) and takes just a few minutes!
 
