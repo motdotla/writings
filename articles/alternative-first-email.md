@@ -2,10 +2,11 @@ Congratulations on Your New SendGrid Account!
 
 Let's get you setup. It's quick and easy.
 
-Paste the following into your browser to send your first email:
+Paste the following into your browser to send your first email (making sure to replace with your credentials):
 
 ```
-https://api.sendgrid.com/api/mail.send.json?api_user=USERNAME&api_key=PASSWORD&to=you@yourself.com&from=you@yourself.com&subject=SendGridTest&text=My first email from SendGrid!
+https://api.sendgrid.com/api/mail.send.json?api_user=USERNAME&api_key=PASSWORD&to=you@yourself.com
+&from=you@yourself.com&subject=SendGridTest&text=My first email from SendGrid!
 ```
 
 Wasn't that easy! SendGrid uses a [Web API](http://sendgrid.com/docs/API_Reference/Web_API/) to make sending super simple.
