@@ -75,6 +75,10 @@ Also, hyperlinks for the win.
 
 * [Gobyexample](https://gobyexample.com/)
 
+## Design
+
+* [Emails](http://reallygoodemails.com/)
+
 ## Things I hate but have to deal with
 
 * [Maven](http://search.maven.org/)
