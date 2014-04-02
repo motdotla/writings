@@ -86,3 +86,5 @@ Snapchat on top of Telegram.
 Squirt.io for chat - built on top of Telegram.
 
 Building an app that has mutations built into it. Those mutations change something, and then users of the app either like that change or don't. The good mutations win out. Likely this would also require you to write bots to use your app. These bots would simulate the environment, but would somehow have to be smart to choose mutations.
+
+A bugmenot but for wifi networks. It would recognize the network by running in the background on your computer - and then give you all the internet username and passwords for those WIFIs.
