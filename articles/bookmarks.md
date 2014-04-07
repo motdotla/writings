@@ -30,6 +30,7 @@ Also, hyperlinks for the win.
 
 * ["My role is to be on the bottom of things"](http://www-cs-faculty.stanford.edu/~uno/email.html)
 * [The Slow Web](http://jackcheng.com/the-slow-web)
+* Set your goals high and your spirits higher
 
 ## SendGrid
 
