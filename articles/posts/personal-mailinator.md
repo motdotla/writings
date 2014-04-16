@@ -16,13 +16,13 @@ Visit [RequestBin](http://requestb.in) and create a bin.
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/personal-mailinator-1.png)
 
-Visit [SendGrid's Parse Webhook Settings](https://sendgrid.com/developer/reply). Set the hostname to **12345.webhook.email**. Set the url to the url of the bin you created above.
+Visit [SendGrid's Parse Webhook Settings](https://sendgrid.com/developer/reply). Set the hostname to **1ii55qy1.webhook.email**. Set the url to the url of the bin you created above.
 
 ### Step 3: Send an email
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/personal-mailinator-2.png)
 
-Go to your email and send an email to **hi@12345.webhook.email**. Refresh the request bin page you generated in Step 1. 
+Go to your email and send an email to **hi@1ii55qy1.webhook.email**. Refresh the request bin page you generated in Step 1. 
 
 That's it. You're done! You'll see the contents of the email in the bin you created above.
 
