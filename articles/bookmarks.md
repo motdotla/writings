@@ -79,6 +79,7 @@ Also, hyperlinks for the win.
 ## Design
 
 * [Emails](http://reallygoodemails.com/)
+* [Convert MOV to GIF](https://gist.github.com/dergachev/4627207)
 
 ## Things I hate but have to deal with
 
