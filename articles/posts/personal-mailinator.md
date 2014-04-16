@@ -10,19 +10,19 @@ In this post, I'm going to show you how to do just that. It turns out it is pret
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/personal-mailinator-0.png)
 
-Visit [RequestBin](http://requestb.in) and create a bin.
+Visit [RequestBin](http://requestb.in) and create a [bin](http://requestb.in/1ii55qy1?inspect).
 
 ### Step 2: Setup the Inbound Webhook
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/personal-mailinator-1.png)
 
-Visit [SendGrid's Parse Webhook Settings](https://sendgrid.com/developer/reply). Set the hostname to **1ii55qy1.webhook.email**. Set the url to the url of the bin you created above.
+Visit [SendGrid's Parse Webhook Settings](https://sendgrid.com/developer/reply). Set the hostname to **1ii55qy1.webhook.email**. Set the url to the url of the [bin](http://requestb.in/1ii55qy1?inspect) you created above.
 
 ### Step 3: Send an email
 
 ![](https://raw.githubusercontent.com/scottmotte/writings/master/images/personal-mailinator-2.png)
 
-Go to your email and send an email to **hi@1ii55qy1.webhook.email**. Refresh the request bin page you generated in Step 1. 
+Go to your email and send an email to **hi@1ii55qy1.webhook.email**. Refresh the request [bin page](http://requestb.in/1ii55qy1?inspect) you generated in Step 1. 
 
 That's it. You're done! You'll see the contents of the email in the bin you created above.
 
