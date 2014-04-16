@@ -20,7 +20,7 @@ Visit [SendGrid's Parse Webhook Settings](https://sendgrid.com/developer/reply).
 
 ### Step 3: Send an email
 
-![](https://raw.githubusercontent.com/scottmotte/writings/master/images/personal-mailinator-3.png)
+![](https://raw.githubusercontent.com/scottmotte/writings/master/images/personal-mailinator-2.png)
 
 Go to your email and send an email to **hi@12345.webhook.email**. Refresh the request bin page you generated in Step 1. 
 
