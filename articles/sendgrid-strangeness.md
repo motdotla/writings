@@ -6,3 +6,10 @@
 * subject is required when using the Web API (and won't let you send), but is NOT required when using the smtp API
 * BCC field does not work if placing a TO in the x-smtpapi headers. BCC does work if the TO address is only in the regular TO field.  
 * CC field does not work at all. It's absolutely not supported in web API.
+* When Exceding Max Size in file upload, it throws an HTML instead of JS + an undocumented status code.
+* If making a request to send to an email alias and the actual email, only one gets delivered. (only observed in Web API + Gmail)
+
+# Parse API
+
+* The "from" value is actually the "fromname" value. Inconsistent with the Web API. Also, if you wish to obtain the actual "from" email address, you need to parse out the envelope which comes in a JSON string instead of a nested JSON object.
+
