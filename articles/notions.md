@@ -98,3 +98,5 @@ gif as spritz - so you could send an email of a story and read it really quickly
 cover photo gravatar. Like gravatar but for the increasingly popular use of cover photos.
 
 minimal website chrome extension - I want facebook lite, twitter lite, and other websites lite. I want to visit twitter and not see stars and RTs and all that ish. I literally think before I tweet if this tweet will garner stars and RTs or not. That's perverted. I need to work on that privately, but having a twitter lite would help eliminate that. Also, it'd be nice to reminisce about how simple twitter once was by actually using a version similar to it's old simplicity. Similarly for Facebook I'd like to not see the feed. I just want to see a list of all my friends and message them. Maybe it would show towards the top friends I haven't seen in a while too.
+
+Checklists. They save lives in flight. There should be software that does this - saves the sanity of developers deploying software. <http://www.solipsys.co.uk/new/SoftwareChecklist.html?ColinsBlog>. Something like Travis CI or a plugin into your ci that runs againsta  bunch of checklists.
