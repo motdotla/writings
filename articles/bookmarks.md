@@ -80,6 +80,9 @@ Also, hyperlinks for the win.
 
 * [Emails](http://reallygoodemails.com/)
 * [Convert MOV to GIF](https://gist.github.com/dergachev/4627207)
+* [Example of minimalist design that communicates well](http://www.iawriter.com/writer-for-mac-guide.html)
+* [Cuba.is](http://cuba.is/)
+* [I like Michel Martin's minimalist approach to code and design](http://soveran.com/). It's calming for the mind.
 
 ## Things I hate but have to deal with
 
