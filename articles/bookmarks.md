@@ -8,11 +8,13 @@ Also, hyperlinks for the win.
 ## Morning
 
 * [Simple.com](http://simple.com)
-* Handle expenses
+* Anki run
 * [Check your calendar](https://calendar.google.com/a/sendgrid.com)
 * [Check your email](https://mail.google.com/a/sendgrid.com)
-* [Stack overflow](http://stackoverflow.com/search?tab=newest&q=sendgrid)
 * [Plan your next event](https://basecamp.com/1901156/calendar)
+* Handle expenses
+* [Check stars](https://github.com/stars)
+* [Stack overflow](http://stackoverflow.com/search?tab=newest&q=sendgrid)
 
 ## Fun
 
@@ -25,6 +27,7 @@ Also, hyperlinks for the win.
 * [SeenHeardKnown](http://seenheardknown.com/)
 * [SafeHouseUSA](http://safehouseusa.com/)
 * [Me Vida Loca](http://www.youtube.com/watch?v=EWY3FyD18y4) - watch this soon
+* <http://moar.edgecats.net/meow>
 
 ## Perspective
 
@@ -50,13 +53,20 @@ Also, hyperlinks for the win.
 * [SendGrid and ajax](https://gist.github.com/scottmotte/6fa978692af8bcc32763)
 * [Splunk](https://splunk.sendgrid.net)
 * [BrandFolder](http://brandfolder.com/sendgrid)
+* [Logos](https://sendgrid.com/resources/logo_brand)
+* [Mail2Webhook](https://www.mail2webhook.com/)
+* <http://challengepost.com/software/built-with/sendgrid>
+* <https://docs.google.com/a/sendgrid.com/document/d/1J4RIV6pgpaGw5o-3labSyiAfTtyS1W09-tu7rUpOHY4/edit#>
 
 ## LA
 
-* [Student RND](https://drive.google.com/a/sendgrid.com/folderview?id=0B-wCyigKjlrpdWN0M2k3WTRVWms&usp=sharing)
-* [Trello CodeDay LA](https://trello.com/b/3d9E9QLZ/codeday-la-2014)
-* [Metro Map](http://upload.wikimedia.org/wikipedia/commons/6/6b/Spring-2012-LACMTA-Map.png)
+* [Draft.la](http://www.draft.la/)
 * [Upcoming Hackathons in LA](http://www.hackathon.io/events?utf8=%E2%9C%93&term=&location=Los+Angeles&commit=filter)
+* [Metro Map](http://upload.wikimedia.org/wikipedia/commons/6/6b/Spring-2012-LACMTA-Map.png)
+* <http://www.muckercapital.com/>
+* <http://newsle.com/article/0/131250468/>
+* <http://www.builtinla.com/>
+* <https://github.com/musichackday>
 
 ## Signature.io
 
@@ -66,16 +76,6 @@ Also, hyperlinks for the win.
 * [MyScriptFont.com](http://www.myscriptfont.com/)
 * [Snapsvg.io](http://snapsvg.io/)
 
-## JavaScript
-
-* [Jsdb.io](http://www.jsdb.io/) 
-* [Component.io](http://component.io/)
-* [Dat](https://github.com/maxogden/dat) - like git but for data. make it sync. looks like HUGE potential
-
-## Go
-
-* [Gobyexample](https://gobyexample.com/)
-
 ## Design
 
 * [Emails](http://reallygoodemails.com/)
@@ -83,6 +83,41 @@ Also, hyperlinks for the win.
 * [Example of minimalist design that communicates well](http://www.iawriter.com/writer-for-mac-guide.html)
 * [Cuba.is](http://cuba.is/)
 * [I like Michel Martin's minimalist approach to code and design](http://soveran.com/). It's calming for the mind.
+* [I like this concept on an ongoing basis](http://mailchimp.com/2013/#by-the-numbers). Maybe your app should always be putting out stats and depicting them in a beautiful way like this.
+* [Stock Photos that don't suck](https://medium.com/design-ux/62ae4bcbe01b)
+* <http://reallygoodemails.com/>
+* <http://diary.mrty.tv/>
+* <http://mantia.me/wallpaper/>
+* <http://wedgeandlever.com/portfolio/launch/>
+* <http://mikeyanderson.com/optimal_characters_per_line>
+
+## Things Interesting
+
+* <http://extensiblewebmanifesto.org/>
+* <http://byfat.xxx/>
+* <https://medium.com/business-marketing/a988c17383a6>
+* <https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript>
+* <http://wayfinder.co/pathways/53560396afebf39b00511085/no-more-passwords>
+* <http://www.shodanhq.com/>
+* <http://www.jwz.org/doc/threading.html>
+* <http://danshipper.com/>
+* <https://www.sqwiggle.com/>
+* <http://blog.cr.yp.to/20140323-ecdsa.html>
+* <http://www.tigertext.com/start/>
+* <https://github.com/devorganizers/partners-list>
+* <http://parser.zapier.com/>
+* <http://www.patatap.com/>
+* <https://github.com/cascadiajs/2014.cascadiajs.com/tree/master/proposals#call-for-proposals--the-details>
+* <http://www.squirt.io/>
+* <http://poolside.fm/>
+* <https://www.goodreads.com/review/list/10050140-nick?page=5&shelf=read>
+* <http://blogs.hbr.org/2014/02/how-to-make-yourself-work-when-you-just-dont-want-to/>
+* <https://theblacktux.com/>
+* <http://ipinfo.io/>
+* <http://www.producthunt.co/>
+* <http://www.goldieblox.com/>
+* <http://samteller.com/post/65121857106>
+* <https://speakerdeck.com/bkeepers/git-the-nosql-database>
 
 ## Things I hate but have to deal with
 
@@ -95,5 +130,7 @@ Also, hyperlinks for the win.
 * [Thoughts on productivity apps and how to improve](http://www.visakanv.com/blog/2013/09/productivity-apps-fill-buckets-when-they-should-be-lighting-fires/)
 * [Onions.io - Secure text storage in the cloud](https://www.onions.io/)
 * [Consider skating again - especially with all the cities you travel to](http://www.thrashermagazine.com/component/option,com_hwdvideoshare/Itemid,90/lang,en/task,viewvideo/video_id,2355/)
-* Talk to AdamD about getting speaker slots
+* <http://www.streak.com/>
+* <https://gist.github.com/scottmotte/5a7783007e98c3ae08dd>
+
 
