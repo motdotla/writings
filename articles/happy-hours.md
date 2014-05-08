@@ -8,6 +8,6 @@ I think we only spent $20 - total. $10 each. Food was tasty, Jacob had a bear, I
 
 ## Sake House Hikari - 5/7
 
-Very fresh Sashimi. I recommend it. Also a pitcher of beer is only $7. Jacob says "the mussels are really good. Like a baked mussle or something". 
+Very fresh Sashimi. I recommend it. Also a pitcher of beer is only $7. Jacob says "the mussels are really good. Like a baked mussle or something". Was not as cheap. Total spent was $58.
 
 
