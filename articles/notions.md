@@ -102,3 +102,5 @@ minimal website chrome extension - I want facebook lite, twitter lite, and other
 Checklists. They save lives in flight. There should be software that does this - saves the sanity of developers deploying software. <http://www.solipsys.co.uk/new/SoftwareChecklist.html?ColinsBlog>. Something like Travis CI or a plugin into your ci that runs againsta  bunch of checklists.
 
 Let the computer decide blog post. Write a blog post about how moving decisions to the computer can save you headache. compare it to having a chef - saves you a lot of headache deciding what to eat. it's just taken care of. compare it to yourself as a kid - you can be happier sometimes if you have less decisions to make describe it in the content of decision fatigue. Too many decisions each day can wear you out. And many of us are making more decisions today - because of all the emails we answer. Less decisions can lead to more happiness Compare it to rails. Decisions were made for you which contributed to programmer happiness.  You can always customize later as you need.
+
+Ride share system for small/medium groups built on top of telegram
