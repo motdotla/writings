@@ -90,6 +90,7 @@ Also, hyperlinks for the win.
 * <http://mantia.me/wallpaper/>
 * <http://wedgeandlever.com/portfolio/launch/>
 * <http://mikeyanderson.com/optimal_characters_per_line>
+* <http://swungover.wordpress.com/2013/11/06/the-art-of-vintage-manliness-the-vintage-haircut/>
 
 ## Things Interesting
 
