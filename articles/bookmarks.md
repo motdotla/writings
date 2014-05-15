@@ -91,6 +91,7 @@ Also, hyperlinks for the win.
 * <http://wedgeandlever.com/portfolio/launch/>
 * <http://mikeyanderson.com/optimal_characters_per_line>
 * <http://swungover.wordpress.com/2013/11/06/the-art-of-vintage-manliness-the-vintage-haircut/>
+* <http://www.maxmayo.com/2012/10/slicked-back-hairstyle-gallery/>
 
 ## Things Interesting
 
