@@ -1,14 +1,16 @@
 # Creating your first heroku buildpack
 
-[Heroku](http://heroku.com) provides a way to install custom binaries for your applications. You might have heard of them. They are called [buildpacks](https://devcenter.heroku.com/articles/buildpacks).
+Did you know you can install custom software on [Heroku](http://heroku.com)? You can, using [buildpacks](https://devcenter.heroku.com/articles/buildpacks).
 
-In this tutorial, I show you how to write a custom buildpacks. I'll use [MuPDF](http://www.mupdf.com/) as an example. 
+In this tutorial, I show you how to write a custom buildpack. I'll use [MuPDF](http://www.mupdf.com/) as an example. Replace the MuPDF parts with the binary you want. 
 
 [MuPDF](http://www.mupdf.com/) is a PDF viewer. It's handy for converting PDFs to PNGs.
 
-## Generate the binary
+## Create the binary
 
-### Build the binary
+Before we can create the buildpack we need to create the binary on the Heroku server environment.
+
+### Make the binary
 
 Begin by creating a heroku app.
 
@@ -23,7 +25,7 @@ Then ssh into the server.
 heroku run bash --app buildpack-stager
 ```
 
-Build the binary.
+Make the binary.
 
 ```
 curl -O https://mupdf.googlecode.com/files/mupdf-1.3-source.tar.gz
@@ -37,16 +39,18 @@ Cool, that installs everything to `/app/usr/local`.
 
 ### Archive the binary
 
-Now let's archive the generated binary files.
+Now let's archive the generated binary files. The buildpack expects the binary in archived form.
 
 ```
 cd ~
 tar czf mupdf.tar.gz -C /app/usr/local .
 ```
 
-### Save the archive locally
+### Transfer the archive to your local machine
 
-Now, we will use srvdir to download the tar.gz to our local machine.
+There are a number of ways to do this, but I prefer using [srvdir](http://srvdir.net). It's easiest.
+
+While still in the Heroku runtime environment.
 
 ```
 curl https://raw.githubusercontent.com/scottmotte/srvdir-binary/master/srvdir.tar.gz -O -ssl3
@@ -54,13 +58,15 @@ tar -zxvf srvdir.tar.gz
 ./srvdir
 ```
 
-Then on your computer open up Google Chrome.
+Then on your local computer open [Google Chrome](https://google.com/chrome).
 
 Visit the url `https://your-unique-url.srvdir.net/mupdf.tar.gz`. It will download the tar.gz to your machine.
 
 ### Host the archive remotely
 
-The buildpack is going to need to download the archive from somewhere remotely. Let's use GitHub. On your local machine do the following.
+The buildpack needs a way to access the archive over the internet. Let's host it remotely on [GitHub](http://github.com). 
+
+On your local machine do the following.
 
 ```
 mkdir mupdf-binary
@@ -77,9 +83,11 @@ Push that repo to GitHub. Now you can download it as a url like this:
 
 Be sure to replace with your username.
 
+You can see an example of this [here](https://github.com/scottmotte/mupdf-binary).
+
 ## Create the buildpack
 
-We've prepared the binary, archived it, and saved it somewhere on the internet. We're finally ready to write the buildpack code.
+We've prepared the binary, archived it, and saved it somewhere on the internet. We're finally ready to write the buildpack code. This is the easy part.
 
 ```
 mkdir something-buildpack
@@ -135,4 +143,17 @@ config_vars:
 EOF
 ```
 
-That's it. Commit that code and push it up to [GitHub](https://github.com/scottmotte/heroku-buildpack-mupdf). You just created your first buildpack for Heroku. Repeat the process for other types of binaries.
+That's it. Commit that code and push it up to [GitHub](https://github.com/scottmotte/heroku-buildpack-mupdf).
+ 
+You just created your first buildpack for Heroku. Repeat the process for other types of binaries.
+
+You can run the buildpack like [this](https://github.com/scottmotte/heroku-buildpack-mupdf#usage).
+
+```
+heroku create -b https://github.com/scottmotte/heroku-buildpack-mupdf.git
+
+# or if your app is already created
+heroku config:add BUILDPACK_URL=https://github.com/scottmotte/heroku-buildpack-mupdf.git
+
+git push heroku master
+```
