@@ -90,6 +90,10 @@ Also, hyperlinks for the win.
 * <http://mantia.me/wallpaper/>
 * <http://wedgeandlever.com/portfolio/launch/>
 * <http://mikeyanderson.com/optimal_characters_per_line>
+
+## Style
+
+* <http://mag.nofillers.com/style/as-told-by-g-eazy-2/>
 * <http://swungover.wordpress.com/2013/11/06/the-art-of-vintage-manliness-the-vintage-haircut/>
 * <http://www.maxmayo.com/2012/10/slicked-back-hairstyle-gallery/>
 
