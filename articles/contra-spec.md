@@ -67,6 +67,48 @@ Why only 3 - because this is what the user sees on the web too. As far as they a
 
 
 
+### Errors
 
+When you boil it down, there are really only 3 outcomes in the interaction between an app and an API
+
+Everything worked
+The application did something wrong
+The API did something wrong
+
+Use these 3 error codes.
+
+200 - OK
+404 - Not Found
+500 - Internal Server Error
+
+If you want to be more specific, do so, but this is good enough.
+
+#### Further
+
+Consider the question, "Why are we providing information about what went wrong?" when designing your errors.
+
+"errors are returned to instruct the user on how to fix their error"
+
+Every error should prompt one, and only one, action that is necessary to correct the error.
+
+{
+  errors: [
+    {
+      code: "required",
+      field: "/apps/0/email",
+      message: "Email is required."
+    }
+  ]
+}
+
+{
+  errors: [
+    {
+      code: "unkown",
+      message: "The server had an unexpected error."
+    }
+  ]
+}
+      
 
 
