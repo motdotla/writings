@@ -104,8 +104,7 @@ Send an email.
 The sendgrid npm module is fully tested and verified to work on the Cedar stack.
 </div>
 
-SendGrid has a Node.js package that is written and maintained by two
-core engineers. The code is open source and available on [Github](http://github.com/sendgrid/sendgrid-nodejs).
+SendGrid has an official Node.js package. The code is open source and available on [Github](http://github.com/sendgrid/sendgrid-nodejs).
 
 Add the following settings in package.json file
 
@@ -153,6 +152,35 @@ Send the email.
 
 Full documentation of all the features of SendGrid's Node.js package can
 be found on [Github](http://github.com/sendgrid/sendgrid-nodejs)
+
+## PHP
+
+SendGrid has a PHP library that facilitates the adoption of SendGrid in PHP applications. The module's source code can be found at [Github](http://github.com/sendgrid/sendgrid-php).
+
+Add SendGrid to your composer.json file.
+
+    :::javascript
+    {  
+      "require": {
+        "sendgrid/sendgrid": "2.0.5"
+      }
+    }
+
+The following code is an example on how to send email using the module:
+
+    :::php
+    require 'vendor/autoload.php';
+    $sendgrid = new SendGrid('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD');
+
+    $message = new SendGrid\Email();
+    $message->addTo('foo@bar.com')->
+              setFrom('me@bar.com')->
+              setSubject('Subject goes here')->
+              setText('Hello World!')->
+              setHtml('<strong>Hello World!</strong>');
+    $response = $sendgrid->send($message);
+
+Full documentation of all the features of SendGrid’s PHP library can be found on [Github](http://github.com/sendgrid/sendgrid-php).
 
 ## Java
 
