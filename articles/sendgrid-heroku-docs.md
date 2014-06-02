@@ -153,9 +153,31 @@ Send the email.
 Full documentation of all the features of SendGrid's Node.js package can
 be found on [Github](http://github.com/sendgrid/sendgrid-nodejs)
 
+## Python
+
+SendGrid has a Python module that facilitates the adoption of SendGrid in Python applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-python).
+
+Add sendgrid>=0.5.0 in your requirements.txt file.
+
+The following code is an example on how to send email using the module:
+
+    :::python
+    import sendgrid
+
+    sg = sendgrid.SendGridClient('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD')
+
+    message = sendgrid.Mail()
+    message.add_to('John Doe ')
+    message.set_subject('Example')
+    message.set_text('Body')
+    message.set_from('Doe John ')
+    status, msg = sg.send(message)
+
+Full documentation of all the features of SendGrid’s Python module can be found on [GitHub](http://github.com/sendgrid/sendgrid-python).
+
 ## PHP
 
-SendGrid has a PHP library that facilitates the adoption of SendGrid in PHP applications. The module's source code can be found at [Github](http://github.com/sendgrid/sendgrid-php).
+SendGrid has a PHP library that facilitates the adoption of SendGrid in PHP applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-php).
 
 Add SendGrid to your composer.json file.
 
@@ -180,7 +202,7 @@ The following code is an example on how to send email using the module:
               setHtml('<strong>Hello World!</strong>');
     $response = $sendgrid->send($message);
 
-Full documentation of all the features of SendGrid’s PHP library can be found on [Github](http://github.com/sendgrid/sendgrid-php).
+Full documentation of all the features of SendGrid’s PHP library can be found on [GitHub](http://github.com/sendgrid/sendgrid-php).
 
 ## Java
 
