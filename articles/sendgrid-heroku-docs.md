@@ -53,55 +53,38 @@ Full documentation of all the features of SendGrid’s Java module can be found 
 
 ## Node.js
 
-SendGrid has an official Node.js package. The code is open source and available on [Github](http://github.com/sendgrid/sendgrid-nodejs).
+SendGrid has a Node.js package that facilitates the adoption of SendGrid in Node.js applications. The package's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-nodejs).
 
-Add the following settings in package.json file
-
-#### package.json
------------------
+Add sendgrid to your package.json file.
 
     :::javascript
     {
-      "name": "node-sendgrid-example",
-      "version": "0.0.1",
+      ...
       "dependencies": {
-        "express": "3.1.x",
-        "sendgrid": "0.3.0-rc.1.7"
-      },
-      "engines": {
-        "node": ">= 0.4.7"
+        ...
+        "sendgrid": "1.0.4"
       }
     }
 
-Install SendGrid locally with the following command:
+Install sendgrid locally with the following command.
+
 `npm install`
 
-#### program.js
------------------
-To begin using this library, initialize the sendgrid object with your SendGrid credentials:
+The following code is an example on how to send email using the package:
 
     :::javascript
-    var sendgrid  = require('sendgrid')(
-      process.env.SENDGRID_USERNAME,
-      process.env.SENDGRID_PASSWORD
-    );
-
-Send the email.
-
-    :::javascript
+    var sendgrid  = require('sendgrid')(process.env.SENDGRID_USERNAME, process.env.SENDGRID_PASSWORD);
     sendgrid.send({
-      to: 'example@example.com',
-      from: 'sender@example.com',
-      subject: 'Hello World',
-      text: 'Sending email with NodeJS through SendGrid!'
+      to:       'example@example.com',
+      from:     'other@example.com',
+      subject:  'Hello World',
+      text:     'My first email through SendGrid.'
     }, function(err, json) {
-    if (err) { return console.error(err); }
+      if (err) { return console.error(err); }
       console.log(json);
     });
 
-Full documentation of all the features of SendGrid's Node.js package can
-be found on [Github](http://github.com/sendgrid/sendgrid-nodejs)
-
+Full documentation of all the features of SendGrid’s Node.js module can be found on [GitHub](http://github.com/sendgrid/sendgrid-nodejs).
 
 ## PHP
 
