@@ -69,7 +69,9 @@ Why only 3 - because this is what the user sees on the web too. As far as they a
 
 ### Errors
 
-When you boil it down, there are really only 3 outcomes in the interaction between an app and an API
+Relevant: <https://github.com/json-api/json-api/issues/7>
+
+When you boil it down, there are really only 3 outcomes in the interaction between a client and an API
 
 Everything worked
 The application did something wrong
