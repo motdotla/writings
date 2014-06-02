@@ -25,6 +25,134 @@ Once SendGrid has been added a `SENDGRID_USERNAME`, `SENDGRID_PASSWORD` settings
 
 After installing SendGrid the application should be configured to fully integrate with the add-on.
 
+## Java
+
+SendGrid has a Java library that facilitates the adoption of SendGrid in Java applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-java).
+
+Download [sendgrid-java using Maven](http://search.maven.org/#search%7Cga%7C1%7Csendgrid) or download the [sendgrid-java.jar](https://sendgrid-open-source.s3.amazonaws.com/sendgrid-java/sendgrid-java.jar) file.
+
+The following code is an example on how to send email using the module:
+
+    :::java
+    import com.sendgrid.*;
+    SendGrid sendgrid = new SendGrid("sendgrid_username", "sendgrid_password");
+
+    SendGrid.Email email = new SendGrid.Email();
+    email.addTo("example@example.com");
+    email.setFrom("other@example.com");
+    email.setSubject("Hello World");
+    email.setText("My first email through SendGrid");
+
+    try {
+      SendGrid.Response response = sendgrid.send(email);
+    catch (SendGridException e) {
+      System.out.println(e);
+    }
+
+Full documentation of all the features of SendGrid’s Java module can be found on [GitHub](http://github.com/sendgrid/sendgrid-java).
+
+## Node.js
+
+SendGrid has an official Node.js package. The code is open source and available on [Github](http://github.com/sendgrid/sendgrid-nodejs).
+
+Add the following settings in package.json file
+
+#### package.json
+-----------------
+
+    :::javascript
+    {
+      "name": "node-sendgrid-example",
+      "version": "0.0.1",
+      "dependencies": {
+        "express": "3.1.x",
+        "sendgrid": "0.3.0-rc.1.7"
+      },
+      "engines": {
+        "node": ">= 0.4.7"
+      }
+    }
+
+Install SendGrid locally with the following command:
+`npm install`
+
+#### program.js
+-----------------
+To begin using this library, initialize the sendgrid object with your SendGrid credentials:
+
+    :::javascript
+    var sendgrid  = require('sendgrid')(
+      process.env.SENDGRID_USERNAME,
+      process.env.SENDGRID_PASSWORD
+    );
+
+Send the email.
+
+    :::javascript
+    sendgrid.send({
+      to: 'example@example.com',
+      from: 'sender@example.com',
+      subject: 'Hello World',
+      text: 'Sending email with NodeJS through SendGrid!'
+    }, function(err, json) {
+    if (err) { return console.error(err); }
+      console.log(json);
+    });
+
+Full documentation of all the features of SendGrid's Node.js package can
+be found on [Github](http://github.com/sendgrid/sendgrid-nodejs)
+
+
+## PHP
+
+SendGrid has a PHP library that facilitates the adoption of SendGrid in PHP applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-php).
+
+Add SendGrid to your composer.json file.
+
+    :::javascript
+    {  
+      "require": {
+        "sendgrid/sendgrid": "2.0.5"
+      }
+    }
+
+The following code is an example on how to send email using the module:
+
+    :::php
+    require 'vendor/autoload.php';
+    $sendgrid = new SendGrid('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD');
+
+    $message = new SendGrid\Email();
+    $message->addTo('foo@bar.com')->
+              setFrom('me@bar.com')->
+              setSubject('Subject goes here')->
+              setText('Hello World!')->
+              setHtml('<strong>Hello World!</strong>');
+    $response = $sendgrid->send($message);
+
+Full documentation of all the features of SendGrid’s PHP library can be found on [GitHub](http://github.com/sendgrid/sendgrid-php).
+
+## Python
+
+SendGrid has a Python module that facilitates the adoption of SendGrid in Python applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-python).
+
+Add sendgrid>=0.5.0 in your requirements.txt file.
+
+The following code is an example on how to send email using the module:
+
+    :::python
+    import sendgrid
+
+    sg = sendgrid.SendGridClient('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD')
+
+    message = sendgrid.Mail()
+    message.add_to('John Doe ')
+    message.set_subject('Example')
+    message.set_text('Body')
+    message.set_from('Doe John ')
+    status, msg = sg.send(message)
+
+Full documentation of all the features of SendGrid’s Python module can be found on [GitHub](http://github.com/sendgrid/sendgrid-python).
 
 ## Ruby / Rails
 
@@ -97,138 +225,6 @@ Send an email.
       subject 'testing send mail'
       body 'Sending email with Ruby through SendGrid!'
     end
-
-## Node.js
-
-<div class="callout" markdown="1">
-The sendgrid npm module is fully tested and verified to work on the Cedar stack.
-</div>
-
-SendGrid has an official Node.js package. The code is open source and available on [Github](http://github.com/sendgrid/sendgrid-nodejs).
-
-Add the following settings in package.json file
-
-#### package.json
------------------
-
-    :::javascript
-    {
-      "name": "node-sendgrid-example",
-      "version": "0.0.1",
-      "dependencies": {
-        "express": "3.1.x",
-        "sendgrid": "0.3.0-rc.1.7"
-      },
-      "engines": {
-        "node": ">= 0.4.7"
-      }
-    }
-
-Install SendGrid locally with the following command:
-`npm install`
-
-#### program.js
------------------
-To begin using this library, initialize the sendgrid object with your SendGrid credentials:
-
-    :::javascript
-    var sendgrid  = require('sendgrid')(
-      process.env.SENDGRID_USERNAME,
-      process.env.SENDGRID_PASSWORD
-    );
-
-Send the email.
-
-    :::javascript
-    sendgrid.send({
-      to: 'example@example.com',
-      from: 'sender@example.com',
-      subject: 'Hello World',
-      text: 'Sending email with NodeJS through SendGrid!'
-    }, function(err, json) {
-    if (err) { return console.error(err); }
-      console.log(json);
-    });
-
-Full documentation of all the features of SendGrid's Node.js package can
-be found on [Github](http://github.com/sendgrid/sendgrid-nodejs)
-
-## Python
-
-SendGrid has a Python module that facilitates the adoption of SendGrid in Python applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-python).
-
-Add sendgrid>=0.5.0 in your requirements.txt file.
-
-The following code is an example on how to send email using the module:
-
-    :::python
-    import sendgrid
-
-    sg = sendgrid.SendGridClient('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD')
-
-    message = sendgrid.Mail()
-    message.add_to('John Doe ')
-    message.set_subject('Example')
-    message.set_text('Body')
-    message.set_from('Doe John ')
-    status, msg = sg.send(message)
-
-Full documentation of all the features of SendGrid’s Python module can be found on [GitHub](http://github.com/sendgrid/sendgrid-python).
-
-## PHP
-
-SendGrid has a PHP library that facilitates the adoption of SendGrid in PHP applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-php).
-
-Add SendGrid to your composer.json file.
-
-    :::javascript
-    {  
-      "require": {
-        "sendgrid/sendgrid": "2.0.5"
-      }
-    }
-
-The following code is an example on how to send email using the module:
-
-    :::php
-    require 'vendor/autoload.php';
-    $sendgrid = new SendGrid('YOUR_SENDGRID_USERNAME', 'YOUR_SENDGRID_PASSWORD');
-
-    $message = new SendGrid\Email();
-    $message->addTo('foo@bar.com')->
-              setFrom('me@bar.com')->
-              setSubject('Subject goes here')->
-              setText('Hello World!')->
-              setHtml('<strong>Hello World!</strong>');
-    $response = $sendgrid->send($message);
-
-Full documentation of all the features of SendGrid’s PHP library can be found on [GitHub](http://github.com/sendgrid/sendgrid-php).
-
-## Java
-
-SendGrid has a Java library that facilitates the adoption of SendGrid in Java applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-java).
-
-Download [sendgrid-java using Maven](http://search.maven.org/#search%7Cga%7C1%7Csendgrid) or download the [sendgrid-java.jar](https://sendgrid-open-source.s3.amazonaws.com/sendgrid-java/sendgrid-java.jar) file.
-
-The following code is an example on how to send email using the module:
-
-    :::java
-    import com.sendgrid.*;
-    SendGrid sendgrid = new SendGrid("sendgrid_username", "sendgrid_password");
-
-    SendGrid.Email email = new SendGrid.Email();
-    email.addTo("example@example.com");
-    email.setFrom("other@example.com");
-    email.setSubject("Hello World");
-    email.setText("My first email through SendGrid");
-
-    try {
-      SendGrid.Response response = sendgrid.send(email);
-    catch (SendGridException e) {
-      System.out.println(e);
-    }
-
-Full documentation of all the features of SendGrid’s Java module can be found on [GitHub](http://github.com/sendgrid/sendgrid-java).
 
 ## Dashboard
 
