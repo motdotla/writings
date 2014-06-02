@@ -25,6 +25,41 @@ Once SendGrid has been added a `SENDGRID_USERNAME`, `SENDGRID_PASSWORD` settings
 
 After installing SendGrid the application should be configured to fully integrate with the add-on.
 
+## Golang
+
+SendGrid has a Golang helper library that facilitates the adoption of SendGrid in Golang applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-go).
+
+Install sendgrid locally with the following command.
+
+`go get github.com/sendgrid/sendgrid-go`
+
+The following code is an example on how to send email using the library:
+
+    :::go
+    package main
+
+    import (
+        "fmt"
+        "github.com/sendgrid/sendgrid-go"
+    )
+
+    func main() {
+        sg := sendgrid.NewSendGridClient("sendgrid_username", "sendgrid_password")
+        message := sendgrid.NewMail()
+        message.AddTo("yamil@sendgrid.com")
+        message.AddToName("Yamil Asusta")
+        message.SetSubject("SendGrid Testing")
+        message.SetText("WIN")
+        message.SetFrom("yamil@sendgrid.com")
+        if r := sg.Send(message); r == nil {
+            fmt.Println("Email sent!")
+        } else {
+            fmt.Println(r)
+        }
+    }
+
+Full documentation of all the features of SendGrid’s Go helper library can be found on [GitHub](http://github.com/sendgrid/sendgrid-go).
+
 ## Java
 
 SendGrid has a Java library that facilitates the adoption of SendGrid in Java applications. The module's source code can be found at [GitHub](http://github.com/sendgrid/sendgrid-java).
