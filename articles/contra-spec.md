@@ -74,14 +74,18 @@ Relevant: <https://github.com/json-api/json-api/issues/7>
 When you boil it down, there are really only 3 outcomes in the interaction between a client and an API
 
 Everything worked
-The application did something wrong
+The client did something wrong
 The API did something wrong
 
-Use these 3 error codes.
+The client hit a non-existant url
+
+Use these 3 error codes + the 404.
 
 200 - OK
-404 - Not Found
+400 - Bad Request
 500 - Internal Server Error
+
+404 - Not Found
 
 If you want to be more specific, do so, but this is good enough.
 
