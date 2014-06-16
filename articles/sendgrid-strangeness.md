@@ -8,6 +8,7 @@
 * CC field does not work at all. It's absolutely not supported in web API.
 * When Exceding Max Size in file upload, it throws an HTML instead of JS + an undocumented status code.
 * If making a request to send to an email alias and the actual email, only one gets delivered. (only observed in Web API + Gmail)
+* The x-smtpapi header should support BCC. That would allow the library maintainers to let people send via BCC. Instead the maintainers are left explaining it away - with an honestly weak explanation. The BCC smtpapi header could then just internally use the to. Those bccs just get added to the Tos.
 
 # Parse API
 
