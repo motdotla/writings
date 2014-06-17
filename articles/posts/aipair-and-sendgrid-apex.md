@@ -10,7 +10,7 @@ I took on the task of developing the APEX library. I jumped into the Salesforce 
 
 I logged onto AirPair's website, found a Salesforce developer, and reserved some pairing time. Soon after I was contacted via email by [Igor](https://twitter.com/ilebovic) at AirPair. He introduced me to [Daniel](https://twitter.com/FishOfPrey). The 3 of us chatted over HipChat. We scheduled an hour session for the next day - 11AM my time on the Santa Monica coastline, 7AM Daniel's time on the New Zealand coastline.
 
-Daniel was great. He knew his Salesforce, had a rad icon of [himself in a kayak](https://pbs.twimg.com/profile_images/1523377229/thumb.jpg), and put up with my complaints of the Salesforce development environment.
+Daniel was great. He knew his Salesforce, had a rad icon of [himself in a kayak](https://pbs.twimg.com/profile_images/1523377229/thumb.jpg), and addressed all my questions on the Salesforce development environment.
 
 Within 30 minutes he had guided me to a [very nice Salesforce development environment](http://sendgrid.com/blog/hello-world-apex/). It fit my development style. I could tell this was going to be good.
 
