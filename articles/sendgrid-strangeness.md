@@ -9,6 +9,7 @@
 * When Exceding Max Size in file upload, it throws an HTML instead of JS + an undocumented status code.
 * If making a request to send to an email alias and the actual email, only one gets delivered. (only observed in Web API + Gmail)
 * The x-smtpapi header should support BCC. That would allow the library maintainers to let people send via BCC. Instead the maintainers are left explaining it away - with an honestly weak explanation. The BCC smtpapi header could then just internally use the to. Those bccs just get added to the Tos.
+* Seems like we don't support RFC 2047 encoded MIME headers in multipart form content sent to the Web API `Content-Disposition: form-data; name="=?utf-8?B?ZmlsZXNbdGVzdMO4LnR4dF0=?="; filename="=?utf-8?B?dGVzdMO4LnR4dA==?="` results in no error, but the files get stripped out.
 
 # Parse API
 
