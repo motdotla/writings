@@ -108,3 +108,5 @@ Ride share system for small/medium groups built on top of telegram
 Database system that deletes data after a set period of time by default. Ephemeral data - similar to human memory. Redis does allow for this but it is not default.
 
 From my niece - "app that makes you great selfies. People would pay like $20 for that app". Could use studies of [facial symmetry](http://en.wikipedia.org/wiki/Facial_symmetry) combined with slightly adjusting minor points along the face to adjust your face to a more symetrical you. Automatic photoshop effectively. 
+
+Load enviroment variables into shell via .yaml and .env variables (via @nquinlan)
