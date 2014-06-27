@@ -11,3 +11,4 @@ Miscellaneous links and plans for our roadtrip on the Fourth of July.
 - [12-Foot-Tall Bronze Indian](http://www.roadsideamerica.com/tip/37721)
 - [Dinosaur Caves Park](http://www.roadsideamerica.com/tip/27066)
 - [Giant Artichoke](http://www.roadsideamerica.com/story/4024)
+- [Split Pea Soup](http://www.roadsideamerica.com/tip/3717) I think this one is a must
