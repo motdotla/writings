@@ -4,6 +4,7 @@ Miscellaneous links and plans for our roadtrip on the Fourth of July.
 
 ## Links
 - [AirBnB](https://www.airbnb.com/rooms/266427?checkin=07%2F03%2F2014&checkout=07%2F05%2F2014&guests=4&s=YUjb)
+- [Proposed Route](https://goo.gl/maps/HfxpW)
 
 ## Stopping Points
 - [Big Clam Statues](http://www.roadsideamerica.com/tip/196)
