@@ -15,3 +15,6 @@
 
 * The "from" value is actually the "fromname" value. Inconsistent with the Web API. Also, if you wish to obtain the actual "from" email address, you need to parse out the envelope which comes in a JSON string instead of a nested JSON object.
 
+# Interface
+
+* The timezones settings are incorrectly ordered. Go to Casablanca, and then it skips to 13 and then reverses order. Those should be in sorted order. Found while at PayPal Battlehack Sydney.
