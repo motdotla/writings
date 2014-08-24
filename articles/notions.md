@@ -112,3 +112,5 @@ From my niece - "app that makes you great selfies. People would pay like $20 for
 Load enviroment variables into shell via .yaml and .env variables (via @nquinlan)
 
 Anki as a service. Web API so you can anki-ize your product/emails/etc. Idea made while hanging out in Chicago with @heitortsergent.
+
+Email Betterment Site - A list of hacks/extensions/platforms to make your email better
