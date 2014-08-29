@@ -112,3 +112,5 @@ From my niece - "app that makes you great selfies. People would pay like $20 for
 Load enviroment variables into shell via .yaml and .env variables (via @nquinlan)
 
 Anki as a service. Web API so you can anki-ize your product/emails/etc. Idea made while hanging out in Chicago with @heitortsergent.
+
+I want to check into a city via Swarm and it hit up my friends/contacts/leads in town via text or email. Like hey, what's up. Let's catch up.
