@@ -114,3 +114,5 @@ Load enviroment variables into shell via .yaml and .env variables (via @nquinlan
 Anki as a service. Web API so you can anki-ize your product/emails/etc. Idea made while hanging out in Chicago with @heitortsergent.
 
 I want to check into a city via Swarm and it hit up my friends/contacts/leads in town via text or email. Like hey, what's up. Let's catch up.
+
+A cookie (but as a service). It would simply track the user's email. Then other websites and services would use that cookie to autofill in the email. Talked to Sebastien Tabeau about this idea at Foundercon.
