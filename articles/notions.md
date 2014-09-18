@@ -118,3 +118,5 @@ I want to check into a city via Swarm and it hit up my friends/contacts/leads in
 A cookie (but as a service). It would simply track the user's email. Then other websites and services would use that cookie to autofill in the email. Talked to Sebastien Tabeau about this idea at Foundercon.
 
 An app that is literally [50/50 reddit](http://www.reddit.com/r/FiftyFifty)
+
+Video as an alternative to email - it could potentially eliminate more email. maybe so
