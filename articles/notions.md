@@ -120,3 +120,5 @@ A cookie (but as a service). It would simply track the user's email. Then other 
 An app that is literally [50/50 reddit](http://www.reddit.com/r/FiftyFifty)
 
 Video as an alternative to email - it could potentially eliminate more email. maybe so
+
+Plaintext twitter. I to see my twitter feed in super simple text - old school html. Kinda like ello.
