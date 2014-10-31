@@ -124,3 +124,5 @@ Video as an alternative to email - it could potentially eliminate more email. ma
 Plaintext twitter. I to see my twitter feed in super simple text - old school html. Kinda like ello.
 
 A website builder (WYSIWG) but with web components. But more than a website builder - you make it a school. You teach people how to build websites using web components. It would push web components forward, and it would put the web - development for the web - in the hands of more beginners. More people coding is good - even if it is just moving components around.
+
+Service to manage your various 2 part auth emergency security codes.
