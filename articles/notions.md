@@ -128,3 +128,5 @@ A website builder (WYSIWG) but with web components. But more than a website buil
 Service to manage your various 2 part auth emergency security codes.
 
 A "Steve Jobs" microwave. A really simple, small size microwave perfect for apartments. Just one button. On and off. Microwaves have far too many buttons. Do it as a Kickstarter.
+
+Chrome extension on top of Instagram. It would go on top of tags in pictures, tagged to clothing. Then it'd affiliate link to that product.
