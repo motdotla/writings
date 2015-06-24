@@ -130,3 +130,7 @@ Service to manage your various 2 part auth emergency security codes.
 A "Steve Jobs" microwave. A really simple, small size microwave perfect for apartments. Just one button. On and off. Microwaves have far too many buttons. Do it as a Kickstarter.
 
 Chrome extension on top of Instagram. It would go on top of tags in pictures, tagged to clothing. Then it'd affiliate link to that product.
+
+Simple service to embed surveys in email
+
+Easy way to take photos while on a trip with the family and share those - something like an iPhone's shared album, but across other platforms
