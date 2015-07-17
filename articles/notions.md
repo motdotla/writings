@@ -136,3 +136,5 @@ Simple service to embed surveys in email
 Easy way to take photos while on a trip with the family and share those - something like an iPhone's shared album, but across other platforms
 
 A service for unsubscribe - a middle layer for companies - that does smarter unsubscribing. Mainly it tries to rescue an unsubscriber from unsubscribing. Like, hey here' s a 50% off coupon if you stick around. Or, hey we can send less email now. Things along that line that make it easy to a company.
+
+A service like evite but with cooler templates - interactive ones and ones that put sound in the email. A star wars invite for stars parties.
