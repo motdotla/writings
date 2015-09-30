@@ -138,3 +138,5 @@ Easy way to take photos while on a trip with the family and share those - someth
 A service for unsubscribe - a middle layer for companies - that does smarter unsubscribing. Mainly it tries to rescue an unsubscriber from unsubscribing. Like, hey here' s a 50% off coupon if you stick around. Or, hey we can send less email now. Things along that line that make it easy to a company.
 
 A service like evite but with cooler templates - interactive ones and ones that put sound in the email. A star wars invite for stars parties.
+
+Email Betterment Site - A list of hacks/extensions/platforms to make your email better
