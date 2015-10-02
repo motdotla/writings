@@ -20,6 +20,7 @@ A talk on alternative approach to building your API in a non-restful fashion. Th
 + Static, limited, and interactive email clients: what works where?
 
 ## The past is the future and the future is the past
+
 Punch card coding is brining the past to the future. 
 
 ## Become a MacGyver: How to start building your own interactive emails
@@ -28,9 +29,13 @@ MacGyver did it with paperclips and duct tape; you can do it with radio buttons 
 
 From simple hover effects to complex mailable microsites, we’ll look at the code used to build interactivity in email and show you how to string it together yourself. Get your text editors ready, there will be some live code.
 
-## The future of email
+## "Email first": A development approach you should consider.
 
-+ 
+In the past we built for desktop, then we built for the web, then we
+built 'mobile first' applications. There is a new one 'email first' applications. 
+
+In this talk I'll show you the benefits and pitfalls of 'email first'
+development. I'll also show you how to build your first interactive email app.
 
 ## Other
 
