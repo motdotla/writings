@@ -37,6 +37,10 @@ built 'mobile first' applications. There is a new one 'email first' applications
 In this talk I'll show you the benefits and pitfalls of 'email first'
 development. I'll also show you how to build your first interactive email app.
 
+## Webhook driven development
+
+Discuss thinking about development from a web hook perspective. Talk about Zapier, Segment, and Threads in how they are doing this.
+
 ## Other
 
 + Ditching the password: Why we should and the alternatives available to us as developers
