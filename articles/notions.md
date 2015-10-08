@@ -140,3 +140,12 @@ A service for unsubscribe - a middle layer for companies - that does smarter uns
 A service like evite but with cooler templates - interactive ones and ones that put sound in the email. A star wars invite for stars parties.
 
 Email Betterment Site - A list of hacks/extensions/platforms to make your email better
+
+Article on 'stick with things, things just take time'. Been multiple projects I've started but did not stick with. All I started prior or just at the early stages of the same time (to where was not aware of the other from a google search) :
++ signature.io -> API for signing, hellosign
++ handshakejs -> auth0 passwordless
++ twinstang  -> mobile digital logbook, logten pro)
++ mailtub -> inboxapp.com (acquired by cisco)
++ clicktocloud -> deploy to heroku button
+
+I could have continued on with one of these. Stuck to it. What might have happened. Reflect on that.
