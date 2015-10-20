@@ -151,3 +151,5 @@ Article on 'stick with things, things just take time'. Been multiple projects I'
 I could have continued on with one of these. Stuck to it. What might have happened. Reflect on that.
 
 Correspondance - an email client that disallows company emails. They just don't go through. Instead, only personal emails can make there way into your inbox. A place where only personal email is seen. Like the old days when receiving real letters from people was so exciting, this could be a fun place to go and see email from friends and family - and keep it there for reminiscing. Maybe company emails and others make their way into a separate bin.
+
+Email quiz/card game - asks you questions about email to see how much you know about it. Would be a nerdy/fun game for email people. Good elephant gift. http://blog.unrollcdn.com/wp-content/uploads/2014/10/unrollme_scariestemailfacts_infographic_PRESS.png
