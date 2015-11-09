@@ -153,3 +153,17 @@ I could have continued on with one of these. Stuck to it. What might have happen
 Correspondance - an email client that disallows company emails. They just don't go through. Instead, only personal emails can make there way into your inbox. A place where only personal email is seen. Like the old days when receiving real letters from people was so exciting, this could be a fun place to go and see email from friends and family - and keep it there for reminiscing. Maybe company emails and others make their way into a separate bin.
 
 Email quiz/card game - asks you questions about email to see how much you know about it. Would be a nerdy/fun game for email people. Good elephant gift. http://blog.unrollcdn.com/wp-content/uploads/2014/10/unrollme_scariestemailfacts_infographic_PRESS.png
+
+Service that converts video to JPEG push
+
+Interactive email signatures as a service - create and paste
+
+iPhone app where you record video and it embeds it into email, and then you can send that email to an individual or to a list
+
+mailchimp but for sms
+
+app to do sales over sms - custom phone number, managed follow ups, etc
+
+email that deletes old emails after a while - if you never followed up to them, self cleaning
+
+email templates API. So many behavior driven email companies are starting up. They all have dull templates. Meanwhile, they spend time on servicing custom templates for their brands. What if brands could just choose from a collection of beautiful email tempaltes on day one. Make it easy to drop in for the email company - with preview, some editing abilities, and API call out to html. Boom,  your service now starts with great new templates.
