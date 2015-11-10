@@ -167,3 +167,5 @@ app to do sales over sms - custom phone number, managed follow ups, etc
 email that deletes old emails after a while - if you never followed up to them, self cleaning
 
 email templates API. So many behavior driven email companies are starting up. They all have dull templates. Meanwhile, they spend time on servicing custom templates for their brands. What if brands could just choose from a collection of beautiful email tempaltes on day one. Make it easy to drop in for the email company - with preview, some editing abilities, and API call out to html. Boom,  your service now starts with great new templates.
+
+Email client that separates into boxes of plain text and html text. Your personal correspondance will likely be in plain text and marketing, etc will end up in rich html.
