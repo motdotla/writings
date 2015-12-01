@@ -169,3 +169,5 @@ email that deletes old emails after a while - if you never followed up to them, 
 email templates API. So many behavior driven email companies are starting up. They all have dull templates. Meanwhile, they spend time on servicing custom templates for their brands. What if brands could just choose from a collection of beautiful email tempaltes on day one. Make it easy to drop in for the email company - with preview, some editing abilities, and API call out to html. Boom,  your service now starts with great new templates.
 
 Email client that separates into boxes of plain text and html text. Your personal correspondance will likely be in plain text and marketing, etc will end up in rich html.
+
+Email client that separates messages by from email. Often you are sending emails back and forth to the same person. This would also be a nice way to separate out comapnies/saas products sending you emails. You could go to their profile and see all emails from them in that context.
