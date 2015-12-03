@@ -171,3 +171,5 @@ email templates API. So many behavior driven email companies are starting up. Th
 Email client that separates into boxes of plain text and html text. Your personal correspondance will likely be in plain text and marketing, etc will end up in rich html.
 
 Email client that separates messages by from email. Often you are sending emails back and forth to the same person. This would also be a nice way to separate out comapnies/saas products sending you emails. You could go to their profile and see all emails from them in that context.
+
+An easy to use encryption and decryption tool - so sensitive data can be passed between companies in a secure and simple way. srvdir sort of but focused on enterprise file sharing
