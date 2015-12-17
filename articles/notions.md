@@ -173,3 +173,8 @@ Email client that separates into boxes of plain text and html text. Your persona
 Email client that separates messages by from email. Often you are sending emails back and forth to the same person. This would also be a nice way to separate out comapnies/saas products sending you emails. You could go to their profile and see all emails from them in that context.
 
 An easy to use encryption and decryption tool - so sensitive data can be passed between companies in a secure and simple way. srvdir sort of but focused on enterprise file sharing
+
+Email client that rather than grouping by threads like gmail, instead just 
+hides part of the email and you can click more to see increasingly more (in 
+chunks). Or just as you scroll ahead it renders a little bit ahead of you. This
+could be a smoother interface for catching up on a long thread.
