@@ -180,3 +180,5 @@ chunks). Or just as you scroll ahead it renders a little bit ahead of you. This
 could be a smoother interface for catching up on a long thread.
 
 http://www.slate.com/articles/technology/technology/2015/02/email_overload_building_my_own_email_app_to_reach_inbox_zero.html?wpsrc=sp_all_native_by-section
+
+Better docker search tool. Search contents of a dockerfile, find specific lines, etc. Make it easy to find the image you need/want. Would greatly help jumpstart development. Feature great ones and official ones, etc.
