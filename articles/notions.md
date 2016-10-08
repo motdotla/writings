@@ -189,3 +189,4 @@ App that digs through all your gmail to find recruiters that have contacted you.
 
 App to help you study for your commercial drone operation certificate (faa) - include automatic registration as well.
 
+Richer status messages for a business' employees - "Socially this gave a hint about their status — were they sending email? Editing a document? It was like a richer version of the presence indicators in Slack or Facebook Messenger."
