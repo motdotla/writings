@@ -186,3 +186,6 @@ Better docker search tool. Search contents of a dockerfile, find specific lines,
 Washing clothes is time consuming. It's an odd time period. You have for 30minutes, then have to change to the dryer, then you wait another hr. All told it ends up take 2 hours per load given you aren't right on time and time to fold. This can cut into a day big time. Taking clothes to a fluff and fold solves this because you drop it off in the morning and pick it up at the end of the day, but it is expensive. Create a wash/dryer that is small and takes only a couple to a few items of clothing. It should be able to wash those items in 5 minutes (similar to if washing by hand), and then dry those items in another 15-25 min. Then you could have clothes ready in 30 minutes. You could wash your clothes at the start of your day this way. It would be small as well and could fit inside your apartment. You could refill the water for it from the sink.
 
 App that digs through all your gmail to find recruiters that have contacted you. Then you can source them when hunting for a new job.
+
+App to help you study for your commercial drone operation certificate (faa) - include automatic registration as well.
+
