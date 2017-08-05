@@ -1,7 +1,6 @@
 class BubbleSort
   def initialize(array)
     @array = array
-    @swap_count = 0
   end
 
   def run
@@ -9,6 +8,8 @@ class BubbleSort
   end
 
   def sort
+    swapped = false
+
     @array.length.times do |i|
       current = @array[i]
       nexxt = @array[i+1]
@@ -17,12 +18,20 @@ class BubbleSort
         @array[i] = nexxt
         @array[i+1] = current
 
-        @swap_count += 1
+        swapped = true
       end
+    end
+
+    if swapped
+      puts 'iteration'
+      sort
+    else
+      @array
     end
   end
 end
 
-items = [2,7,8,3,1]
+items = [2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1,2,7,8,3,1]
+
 result = BubbleSort.new(items).run
 puts result.to_s
