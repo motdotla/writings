@@ -62,3 +62,23 @@ end
   puts fib_constant_space(n)
 end
 
+
+def yield_fib(n)
+  last_two = [0,1]
+
+  yield 0 if n >= 0
+  yield 1 if n >= 1
+
+  (2..n).each do |n|
+    fib = last_two[0] + last_two[1]
+    last_two[0] = last_two[1]
+    last_two[1] = fib
+
+    yield fib
+  end
+end
+
+yield_fib(10) do |value|
+  puts value
+end
+
