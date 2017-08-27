@@ -21,7 +21,11 @@ class SetOfStacks
     @current_length = 0
     @current_stack = Stack.new
   
-    @stack_of_stacks = Stack.new
+    @stack_of_stacks = []
+  end
+
+  def pop_at(i)
+    @stack_of_stacks[i].pop
   end
 
   def push(v)
@@ -89,6 +93,8 @@ st.push(7)
 st.push(8)
 
 puts st.inspect
+
+puts st.pop_at(0)
 
 while v = st.pop
   puts v
