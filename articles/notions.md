@@ -190,3 +190,5 @@ App that digs through all your gmail to find recruiters that have contacted you.
 App to help you study for your commercial drone operation certificate (faa) - include automatic registration as well.
 
 Richer status messages for a business' employees - "Socially this gave a hint about their status — were they sending email? Editing a document? It was like a richer version of the presence indicators in Slack or Facebook Messenger."
+
+Tokenize teacher effort: To take the other extreme, look at teachers. They have the potential to generate huge value based on how effectively they develop society's human capital. Unfortunately the effects of a single teacher are so noisy and indirect that it's basically impossible to measure their performance. The lack of firm data is why the debate about teacher compensation is so fraught.
